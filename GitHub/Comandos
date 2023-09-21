@@ -1,0 +1,32 @@
+-> git init 
+    Inicilizando git na pasta
+
+-> git add . 
+    Adicionando os arquivos no git para fazer o commit
+
+-> git commit -m "TEXTO"
+    Fazendo o commit "Snapshot" Local 
+
+-> git branch
+    Verificar qual branch e mostrar todas as branch
+
+-> git status 
+    Mostrar os  status atutal da branch, se tem algum arquivo para ADD
+
+-> git checkout -b BRANCHNAME
+    Criar uma nova branch
+
+-> git checkout BRANCHNAME
+    Mudar de Branch
+
+-> git log 
+    Mostra o log das commit
+
+-> git restore
+    Restaura a versao 
+
+-> git pull
+    Puxar atualização online para local
+
+-> git push 
+    Enviar atualização local para online
