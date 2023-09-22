@@ -4,7 +4,7 @@
  * @author Rafael Rabelo
  * @since 1.0
  */
-public class main {
+public class Teste {
 	
 	/**
 	 * 
