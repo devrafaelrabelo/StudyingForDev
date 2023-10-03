@@ -62,9 +62,9 @@
 ####    ->  24. Conversão String - Número
                 -> Com Código
 ####    ->  25. Desafio Conversão
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio Conversão | Código
 ####    ->  26. Desafio Conversão - Resposta
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio Conversão | Código
 ####    ->  27. Operadores
                 -> Sem Código
 ####    ->  28. Operadores - Tabela de Precedência
@@ -74,9 +74,9 @@
 ####    ->  29. Operadores Aritméticos
                 -> Com Código
 ####    ->  30. Desafio Operadores Aritméticos
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio Operadores Aritméticos | Código
 ####    ->  31. Desafio Operadores Aritméticos - Resposta
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio Operadores Aritméticos | Código
 ####    ->  32. Operadores Lógicos #01
                 -> Sem Código
 ####    ->  33. Operadores Lógicos #02
@@ -100,9 +100,9 @@
 ####    ->  42. Java vs Javac
                 -> Sem Código 
 ####    ->  43. Desafio do Módulo
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio do Módulo | Código
 ####    ->  44. Desafio do Módulo - Resposta
-                -> Desafio Variaveis e Constantes | Código
+                -> Desafio do Módulo | Código
 ####    ->  45. Conclusão do Módulo
                 -> Sem Código
 ####    ->  46. Exercícios Conceitos Básicos
@@ -114,17 +114,17 @@
 ####    ->  2. IF
                 -> Com Código
 ####    ->  3. Desafio IF
-                -> Com Código
+                -> Desafio IF | Código
 ####    ->  4. Desafio IF - Resposta
-                -> Com Código
+                -> Desafio IF | Código
 ####    ->  5. IFELSE
                 -> Com Código
 ####    ->  6. IFELSE IF
                 -> Com Código
 ####    ->  7. Desafio Dia da Semana
-                
+                Desafio IF ELSE IF | Código
 ####    ->  8. Desafio Dia da Semana - Resposta
-                
+                Desafio IF ELSE IF | Código
 ####    ->  9. WHILE #01
                 
 ####    ->  10. FOR #01
