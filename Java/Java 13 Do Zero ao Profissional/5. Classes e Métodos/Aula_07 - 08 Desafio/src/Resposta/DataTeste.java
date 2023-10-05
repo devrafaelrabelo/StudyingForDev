@@ -16,10 +16,7 @@ public class DataTeste {
 		niverRoger.dia = 17;
 		niverRoger.mes = 11;
 		niverRoger.ano = 1991;
-		System.out.printf("Roger Rabelo - %d/%d/%d", niverRoger.dia, niverRoger.mes, niverRoger.ano);
-		
-		
-		
+		System.out.printf("Roger Rabelo - %d/%d/%d", niverRoger.dia, niverRoger.mes, niverRoger.ano);		
 		
 	}
 	
