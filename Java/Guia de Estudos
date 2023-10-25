@@ -108,7 +108,7 @@
 ####    ->  46. Exercícios Conceitos Básicos
                 -> Sem Código
 
-### 3. Fundamentos
+### 4. Fundamentos
 ####    ->  1. Introdução do Módulo
                 -> Sem Código
 ####    ->  2. IF
@@ -162,7 +162,7 @@
 ####    ->  26. Exercícios Estruturas de Controle
                 -> Com Código 
 
-### 3. Classes e Métodos
+### 5. Classes e Métodos
 ####    ->  1. Introdução do Módulo
                 -> Sem Código
 ####    ->  2. Revisão sobre Classe
@@ -200,28 +200,68 @@
 ####    ->  18. Membros de Classe vs Instância #02
                 -> Com Código
 ####    ->  19. Desafio Membros de Classe vs Instância
-                
+                -> Desafio Membros de Classe vs Instancia | Com Código
 ####    ->  20. Desafio Membros de Classe vs Instância - Resposta
-                
+                -> Desafio Membros de Classe vs Instancia | Com Código                
 ####    ->  21. Atribuição Valor vs Referência #01
-                
+                -> Sem Código
 ####    ->  22. Atribuição Valor vs Referência #02
-                
+                -> Com Código
 ####    ->  23. Desafio Primeiro Trauma
-                
+                -> Desafio Primeiro Trauma | Com Código
 ####    ->  24. Desafio Primeiro Trauma - Resposta
-                
+                -> Desafio Primeiro Trauma | Com Código
 ####    ->  25. This e This()
-                
+                -> Com Código
 ####    ->  26. Variáveis Locais
-                
+                -> Com Código
 ####    ->  27. Valores Padrões
-                
+                -> Com Código
 ####    ->  28. Valor NULL
-                
+                -> Com Código
 ####    ->  29. Desafio Módulo
-                
+                -> Desafio Módulo | Com Código
 ####    ->  30. Desafio Módulo - Resposta
-                
+                -> Desafio Módulo | Com Código
 ####    ->  31. Conclusão Módulo
-                
+                -> Sem Código 
+                Conclusão do Modulo
+
+### 6. Arrays e Collections
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Array #01
+                -> Sem Código
+####    ->  3. Array #02
+                -> Com Código
+####    ->  4. Foreach
+                -> Com Código
+####    ->  5. Desafio Array
+                -> Desafio Array | Com Código
+####    ->  6. Desafio Array - Resposta
+                -> Desafio Array | Com Código
+####    ->  7. Matriz
+                -> Com Código | Desafio Antes de ver o exemplo
+####    ->  8. Entendendo Equals e Hashcode
+                ->
+####    ->  9. Equals na Prática
+                ->
+####    ->  10. Collections
+                ->
+####    ->  11. Set #01
+                ->
+####    ->  12. Set #02
+                ->
+####    ->  13. List
+                ->
+####    ->  14. Queue (Fila)
+                ->
+####    ->  15. Stack (Pilha)
+                ->
+####    ->  16. Map
+                ->
+####    ->  17. Hashcode na Prática
+                ->
+####    ->  18. Conclusão Módulo
+                ->
+               
