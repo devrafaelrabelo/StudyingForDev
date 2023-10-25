@@ -10,7 +10,7 @@ public class MediaNotas {
 		System.out.print("Digite quantas notas: ");
 		int cont = entrada.nextInt();
 		
-		int[] notas = new int[cont];
+		double[] notas = new double[cont];
 		
 		System.out.println("Numeros de notas: " + notas.length);
 		
@@ -21,7 +21,7 @@ public class MediaNotas {
 		
 		double notaTotal = 0;
 		
-		for (int nota : notas) {
+		for (double nota : notas) {
 			notaTotal+= nota;
 		}
 		
