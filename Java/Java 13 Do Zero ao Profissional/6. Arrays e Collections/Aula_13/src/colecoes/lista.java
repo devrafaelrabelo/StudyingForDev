@@ -1,18 +1,26 @@
 package colecoes;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class lista {
 	public static void main(String[] args) {
 		
-		ArrayList<Usuario> lista = new ArrayList<Usuario>();
+		List<Usuario> lista = new ArrayList<>();
 		
 		Usuario p1 = new Usuario("Rafael");
 		lista.add(p1);
 		lista.add(new Usuario("Roger"));
 		lista.add(new Usuario("Oscar"));
 		lista.add(new Usuario("Violeta"));
+		lista.add(new Usuario("Violeta"));
+		lista.add(new Usuario("Violeta"));
+		lista.add(new Usuario("Violeta"));
 		lista.add(new Usuario("Rafael Rabelo"));
+		
+		for (Usuario usuario : lista) {
+			System.out.println(usuario.toString());
+		}	
 		
 		System.out.println(lista.get(2).nome);
 		
