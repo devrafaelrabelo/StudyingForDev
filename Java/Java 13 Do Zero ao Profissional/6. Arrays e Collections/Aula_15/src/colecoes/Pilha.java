@@ -11,6 +11,13 @@ public class Pilha {
 		 
 		 // ADD e push- para adicionar
 		 pilhaLivros.add("O Pequeno Príncipe"); // Retorna false ou true
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
+		 pilhaLivros.add("O Pequeno Príncipe");
 		 pilhaLivros.push("O Pequeno Soldado"); // Retorna excessao
 		 pilhaLivros.push("O Pequeno Noia");
 		 
