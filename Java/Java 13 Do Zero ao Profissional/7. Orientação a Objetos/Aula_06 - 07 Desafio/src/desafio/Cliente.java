@@ -35,6 +35,17 @@ public class Cliente {
 		System.out.println(valorTotal);
 	}
 	
+	double calculadoValorCompraValor() {		
+		double valorTotal = 0;
+		for (Compra compra : compras) {
+			for (int i = 0; i < compra.itens.size(); i++) {
+				valorTotal+= compra.itens.get(i).calculandoValorTotalItem();
+			}
+			
+		}
+		return valorTotal;
+	}
+	
 	
 	
 	
