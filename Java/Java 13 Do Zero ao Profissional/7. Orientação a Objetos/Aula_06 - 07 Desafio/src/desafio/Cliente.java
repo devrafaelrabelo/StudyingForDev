@@ -12,8 +12,8 @@ public class Cliente {
 	Cliente(String nome, int id) {
 		this.nome = nome;
 		this.id = id;		
-	}
-
+	}	
+	
 	@Override
 	public String toString() {
 		return "ID: " + id + "| Nome: " + nome;
@@ -21,21 +21,11 @@ public class Cliente {
 	
 	void adicionandoCompra(Compra compra) {
 		this.compras.add(compra);
+		compra.clientes.add(this);
 	}
+		
 	
-	void calculadoValorCompra() {
-		System.out.print("Valor da compra: ");
-		double valorTotal = 0;
-		for (Compra compra : compras) {
-			for (int i = 0; i < compra.itens.size(); i++) {
-				valorTotal+= compra.itens.get(i).calculandoValorTotalItem();
-			}
-			
-		}
-		System.out.println(valorTotal);
-	}
-	
-	double calculadoValorCompraValor() {		
+	double calculadoValorCompra() {		
 		double valorTotal = 0;
 		for (Compra compra : compras) {
 			for (int i = 0; i < compra.itens.size(); i++) {

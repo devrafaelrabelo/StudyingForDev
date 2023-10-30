@@ -199,7 +199,7 @@ public class ShoppingMain {
 		//Entrada de dados Compra ao Cliente 2 :
 		System.out.println("Cliente: " + clientes.get(4).nome);
 		System.out.println("Antes da Compra");
-		clientes.get(4).calculadoValorCompra();	
+		System.out.println(clientes.get(4).calculadoValorCompra());	
 		
 		System.out.println("\nEfetuando Compras");
 		clientes.get(4).adicionandoCompra(compra1);	// 58
@@ -207,17 +207,24 @@ public class ShoppingMain {
 
 		
 		System.out.println("\nDepois da Compra");		
-		clientes.get(4).calculadoValorCompra();
+		System.out.println(clientes.get(4).calculadoValorCompra());	
 		System.out.println("---------------------------------------------\n");		
 		
 		double valorArrecado = 0;
 		for (int i = 0; i < clientes.size(); i++) {
-			valorArrecado += clientes.get(i).calculadoValorCompraValor();
+			valorArrecado += clientes.get(i).calculadoValorCompra();
 		}
 		
 		System.out.println("Faturamento das Vendas: " + valorArrecado);
 		System.out.println();
 		System.out.println("---------------------------------------------\n");	
+		
+//		--------------------------------------------------------------------------------------------------------
+		//Lista de Compradores de cada Compra
+		
+		compra1.imprimirComprados();
+		
+		
 		
 		System.out.println("Programa Encerrado!!!!!");
 		
