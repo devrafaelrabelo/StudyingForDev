@@ -21,6 +21,24 @@ public class Banco {
 
 	}
 
+	public Conta retornaContasObj(String codigo) {
+		for (Conta conta : contas) {
+			if (conta.getCodigo().equals(codigo)) {
+				return conta;
+			}
+		}
+		return null;
+	}
+
+	public Cliente retornaClienteObj(Long CPF) {
+		for (Cliente cliente : clientes) {
+			if (cliente.getCPF() == CPF) {
+				return cliente;
+			}
+		}
+		return null;
+	}
+
 	public void imprimirClientes() {
 		System.out.println("CORRENTISTAS:");
 		retornaClientes();

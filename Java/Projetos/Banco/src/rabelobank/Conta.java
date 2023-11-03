@@ -34,9 +34,14 @@ public class Conta {
 		this.saldo -= deposito;
 	}
 
-	void transferBancario(double deposito, Conta conta) {
-		this.saldo -= deposito;
-		conta.depositoBancario(deposito);
+	boolean transferBancario(double deposito, Conta conta) {
+		if (conta != null) {
+			this.saldo -= deposito;
+			conta.depositoBancario(deposito);
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	@Override
