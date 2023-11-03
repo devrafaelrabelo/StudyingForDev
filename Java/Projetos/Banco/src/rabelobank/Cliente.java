@@ -19,17 +19,15 @@ public class Cliente {
 		adicionandoCliente(this, banco, conta);
 	}
 
-	public boolean adicionandoCliente(Cliente cliente, Banco banco,Conta conta) {
+	public boolean adicionandoCliente(Cliente cliente, Banco banco, Conta conta) {
 		if (banco.clientes.contains(cliente)) {
-			System.out.println("Cliente Existe, Não Cadastrado");
 			return false;
 		}
-		System.out.println("Cliente Não Existe, Cadastrado");
 		contas.add(conta);
 		banco.clientes.add(cliente);
 		return true;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Cliente" + "\nNome: " + nome + "\nCPF: " + CPF + "\nNascimento: " + nascimento + "\nContas:\n" + contas;

@@ -7,31 +7,37 @@ import java.util.Objects;
 public class Conta {
 
 	final private int IDCONTA;
-	private int digito;	
+	private int digito;
 	double saldo = 0;
 	Banco banco;
-	List<Cliente> clientes = new ArrayList<Cliente>();	 
-	
+	List<Cliente> clientes = new ArrayList<Cliente>();
+
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
-		this.digito = digito;	
+		this.digito = digito;
 		adicionandoConta(this, banco);
 	}
-	
-	public boolean adicionandoConta(Conta conta, Banco banco){				
-		if (banco.contas.contains(conta)) {			
-			System.out.println("Conta Existe, Não Cadastrado");
+
+	public boolean adicionandoConta(Conta conta, Banco banco) {
+		if (banco.contas.contains(conta)) {
 			return false;
-		}		
-		System.out.println("Conta Não Existe, Cadastrado");
+		}
 		banco.contas.add(conta);
 		return true;
 	}
-	
+
 	void depositoBancario(double deposito) {
 		this.saldo += deposito;
 	}
-	
+
+	void saqueBancario(double deposito) {
+		this.saldo -= deposito;
+	}
+
+	void transferBancario(double deposito, Conta conta) {
+		this.saldo -= deposito;
+		conta.depositoBancario(deposito);
+	}
 
 	@Override
 	public String toString() {
@@ -48,8 +54,8 @@ public class Conta {
 			System.out.println(cliente.getNome());
 		}
 
-	}	
-	
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(IDCONTA);
