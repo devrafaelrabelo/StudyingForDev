@@ -11,6 +11,8 @@ public class Conta {
 	double saldo = 0;
 	Banco banco;
 	List<Cliente> clientes = new ArrayList<Cliente>();
+	List<ExtratoEfetuado> extratosEfetuado = new ArrayList<ExtratoEfetuado>();
+	List<ExtratoRecebido> extratoRecebido = new ArrayList<ExtratoRecebido>();	
 
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
@@ -38,6 +40,8 @@ public class Conta {
 		if (conta != null) {
 			this.saldo -= deposito;
 			conta.depositoBancario(deposito);
+			this.extratosEfetuado.add(new ExtratoEfetuado(conta, deposito));
+			conta.extratoRecebido.add(new ExtratoRecebido(this, deposito));
 			return true;
 		} else {
 			return false;

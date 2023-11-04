@@ -23,8 +23,10 @@ public class App {
 		c1.contas.get(0).saqueBancario(5.50);
 		
 		c1.contas.get(0).transferBancario(500, banco.retornaContasObj("10002-1"));
-		
+		System.out.println(c1.contas.get(0).extratosEfetuado);
 		c1.contas.get(0).transferBancario(500, banco.retornaContasObj("10002-3"));
+		
+		System.out.println(c2.contas.get(0).extratoRecebido);
 		
 		System.out.println(c1);
 
