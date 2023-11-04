@@ -9,6 +9,37 @@
 
 ### Inicializando os Estudos com Java
 
+### Java 13 COMPLETO Do Zero ao Profissional + Projetos Reais!
+## 1. Introdução ✔
+    ### 1.1. Introdução [Versão Original]
+## 2. Configuração do Ambiente ✔
+    ### 2.1. Ambiente [Versão Original]
+## 3. Fundamentos ✔
+    ### 3.1. Conceitos Básicos [Versão Original]
+## 4. Estruturas de Controle ✔
+    ### 4.1. Estruturas de Controle [Versão Original]
+## 5. Classes e Métodos ✔
+    ### 5.1. Classes e Métodos  [Versão Original]
+## 6. Arrays e Collections ✔
+    ### 6.1. Arrays e Coleções  [Versão Original]
+## 7. Orientação a Objetos ✔
+    ### 7.1. Orientação a Objetos [Versão Original]
+## 8. Lambdas
+## 9. Stream API
+## 10. Tratamento de Erros
+## 11. Projeto - Campo Minado (+JUnit 5)
+## 12. Generics
+## 13. Java Desktop com Swing
+## 14. Banco de Dados Relacional
+## 15. Banco de Dados com JDBC
+## 16. Java Persistence API (JPA)
+## 17. Modularidade em Java
+## 18. JavaFX
+## 19. Banco de Dados Não Relacional (NoSQL)
+## 27. API [Versão Original]
+## 28. Tópicos Avançados [Versão Original]
+## 29. Conclusão [Versão Original]
+## #########################################################################
 
 ### Inicializando os Estudos com JavaScript
 
