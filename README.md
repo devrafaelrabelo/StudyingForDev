@@ -39,7 +39,7 @@
 ## 27. API [Versão Original]
 ## 28. Tópicos Avançados [Versão Original]
 ## 29. Conclusão [Versão Original]
-## #########################################################################
+## ########################################################################
 
 ### Inicializando os Estudos com JavaScript
 
