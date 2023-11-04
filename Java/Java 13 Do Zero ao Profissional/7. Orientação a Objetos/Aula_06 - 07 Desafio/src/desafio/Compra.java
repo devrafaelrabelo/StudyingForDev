@@ -6,6 +6,7 @@ import java.util.List;
 public class Compra {
 	
 	List<Item> itens = new ArrayList<Item>();
+	List<Cliente> clientes = new ArrayList<Cliente>();
 	
 	Compra(){
 		
@@ -19,6 +20,13 @@ public class Compra {
 		System.out.println("Lista de Itens");
 		for (Item item : itens) {
 			System.out.println(item.toString());
+		}
+	}
+	
+	void imprimirComprados( ) {
+		System.out.println("Lista de Compradores");
+		for (Cliente cliente : clientes) {
+			System.out.println(cliente.toString());
 		}
 	}
 	

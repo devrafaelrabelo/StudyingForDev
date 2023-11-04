@@ -22,6 +22,7 @@ public class ShoppingMain {
 		clientes.add(new Cliente("Roger Rabelo", clientes.size() + 1));
 		clientes.add(new Cliente("Violeta Rabelo", clientes.size() + 1));
 		clientes.add(new Cliente("Oscar Rabelo", clientes.size() + 1));
+		clientes.add(new Cliente("Raiane Rabelo", clientes.size() + 1));
 		
 		System.out.println("Lista Clientes");
 		for (Cliente listaCliente : clientes) {
@@ -122,7 +123,8 @@ public class ShoppingMain {
 		
 		System.out.println("---------------------------------------------\n");
 //		--------------------------------------------------------------------------------------------------------
-		//Entrada de dados Compra ao Cliente:
+		//Entrada de dados Compra ao Cliente 1 :
+		System.out.println("Cliente: " + clientes.get(0).nome);
 		System.out.println("Antes da Compra");
 		clientes.get(0).calculadoValorCompra();	
 		
@@ -141,10 +143,91 @@ public class ShoppingMain {
 		System.out.println("\nDepois da Compra");		
 		clientes.get(0).calculadoValorCompra();
 		System.out.println("---------------------------------------------\n");
+//		--------------------------------------------------------------------------------------------------------
+		//Entrada de dados Compra ao Cliente 2 :
+		System.out.println("Cliente: " + clientes.get(1).nome);
+		System.out.println("Antes da Compra");
+		clientes.get(1).calculadoValorCompra();	
 		
+		System.out.println("\nEfetuando Compras");
+		clientes.get(1).adicionandoCompra(compra1);	// 58
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(1).adicionandoCompra(compra2);	// 20,5
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(1).adicionandoCompra(compra3);	// 12,5
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(1).adicionandoCompra(compra4);	// 12,5
+		//clientes.get(0).calculadoValorCompra();
+		
+		System.out.println("\nDepois da Compra");		
+		clientes.get(1).calculadoValorCompra();
+		System.out.println("---------------------------------------------\n");
+//		--------------------------------------------------------------------------------------------------------
+		//Entrada de dados Compra ao Cliente 3 :
+		System.out.println("Cliente: " + clientes.get(2).nome);
+		System.out.println("Antes da Compra");
+		clientes.get(2).calculadoValorCompra();	
+		
+		System.out.println("\nEfetuando Compras");
+		clientes.get(2).adicionandoCompra(compra1);	// 58
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(2).adicionandoCompra(compra2);	// 20,5
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(2).adicionandoCompra(compra3);	// 12,5
+		//clientes.get(0).calculadoValorCompra();	
+		
+		System.out.println("\nDepois da Compra");		
+		clientes.get(2).calculadoValorCompra();
+		System.out.println("---------------------------------------------\n");
+//		--------------------------------------------------------------------------------------------------------
+		//Entrada de dados Compra ao Cliente 4 :
+		System.out.println("Cliente: " + clientes.get(3).nome);
+		System.out.println("Antes da Compra");
+		clientes.get(3).calculadoValorCompra();	
+		
+		System.out.println("\nEfetuando Compras");
+		clientes.get(3).adicionandoCompra(compra1);	// 58
+		//clientes.get(0).calculadoValorCompra();	
+		clientes.get(3).adicionandoCompra(compra2);	// 20,5
+		//clientes.get(0).calculadoValorCompra();	
+
+		
+		System.out.println("\nDepois da Compra");		
+		clientes.get(3).calculadoValorCompra();
+		System.out.println("---------------------------------------------\n");
+//		--------------------------------------------------------------------------------------------------------
+		//Entrada de dados Compra ao Cliente 2 :
+		System.out.println("Cliente: " + clientes.get(4).nome);
+		System.out.println("Antes da Compra");
+		System.out.println(clientes.get(4).calculadoValorCompra());	
+		
+		System.out.println("\nEfetuando Compras");
+		clientes.get(4).adicionandoCompra(compra1);	// 58
+		//clientes.get(0).calculadoValorCompra();	
+
+		
+		System.out.println("\nDepois da Compra");		
+		System.out.println(clientes.get(4).calculadoValorCompra());	
+		System.out.println("---------------------------------------------\n");		
+		
+		double valorArrecado = 0;
+		for (int i = 0; i < clientes.size(); i++) {
+			valorArrecado += clientes.get(i).calculadoValorCompra();
+		}
+		
+		System.out.println("Faturamento das Vendas: " + valorArrecado);
 		System.out.println();
-		System.out.println();
-		System.out.println("Fim!!!!!");
+		System.out.println("---------------------------------------------\n");	
+		
+//		--------------------------------------------------------------------------------------------------------
+		//Lista de Compradores de cada Compra
+		
+		compra1.imprimirComprados();
+		
+		
+		
+		System.out.println("Programa Encerrado!!!!!");
+		
 		entrada.close();
 	}
 	
