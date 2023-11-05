@@ -1,18 +1,17 @@
 package rabelobank;
 
-public class ExtratoEfetuado {
-
+public class CompSaque {
+	
 	Conta conta;
 	double valor;
 
-	public ExtratoEfetuado(Conta destino, double valor) {
-		this.conta = destino;
+	public CompSaque(double valor) {
 		this.valor = valor;
 	}
 
 	@Override
 	public String toString() {
-		return "Extrato [destino=" + conta + ", valor=" + valor + "]";
+		return "R$ -" + valor + "\n";
 	}
 
 	public Conta getDestino() {
@@ -30,5 +29,4 @@ public class ExtratoEfetuado {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
-
 }

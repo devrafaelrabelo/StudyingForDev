@@ -11,22 +11,70 @@ public class Cliente {
 	private String nascimento;
 	List<Conta> contas = new ArrayList<>();
 	Banco banco;
-
+	
+//	Construtores 
+//	-------------------------------------------------
+	
+	public Cliente(Cliente cliente, Conta conta, Banco banco) {
+		this.nome = cliente.nome;
+		this.CPF = cliente.CPF;
+		this.nascimento = cliente.nascimento;
+		adicionandoCliente(this, banco, conta);
+	}
+	
+	public Cliente(String nome, Long cPF, String nascimento) {
+		this.nome = nome;
+		this.CPF = cPF;
+		this.nascimento = nascimento;		
+	}		
+	
 	public Cliente(String nome, Long cPF, String nascimento, Banco banco, Conta conta) {
 		this.nome = nome;
 		this.CPF = cPF;
 		this.nascimento = nascimento;
 		adicionandoCliente(this, banco, conta);
 	}
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
 
+//	Adicionando a cliente ao banco 
+//	-------------------------------------------------
+	
 	public boolean adicionandoCliente(Cliente cliente, Banco banco, Conta conta) {
-		if (banco.clientes.contains(cliente)) {
+		if (banco.clientes.contains(cliente) || banco.contas.contains(conta)) {
 			return false;
 		}
 		contas.add(conta);
 		banco.clientes.add(cliente);
+		banco.contas.add(conta);
 		return true;
 	}
+
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
+	
+//	Nome
+//	-------------------------------------------------
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
+	
+//	Nome 
+//	-------------------------------------------------
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
+	
+//	Nome 
+//	-------------------------------------------------
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
+	
+//	Metodos Padroes ToString, Getters, Setters, hashcode, equals e etc 
+//	-------------------------------------------------
+	
 
 	@Override
 	public String toString() {
@@ -77,10 +125,7 @@ public class Cliente {
 	public List<Conta> getContas() {
 		return contas;
 	}
-
-	public void adicionarContas(Conta conta) {
-		this.contas.add(conta);
-		conta.clientes.add(this);
-	}
-
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------	
 }
