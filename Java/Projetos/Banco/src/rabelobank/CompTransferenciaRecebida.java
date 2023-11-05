@@ -5,14 +5,14 @@ public class CompTransferenciaRecebida {
 	Conta conta;
 	double valor;
 
-	public CompTransferenciaRecebida(Conta destino, double valor) {
-		this.conta = destino;
+	public CompTransferenciaRecebida(Conta origem, double valor) {
+		this.conta = origem;
 		this.valor = valor;
 	}
 
 	@Override
 	public String toString() {
-		return "Origem = " + conta.getCodigo() + " - valor = " + valor + "\n";
+		return "Origem = " + conta.getCodigo() + " | R$ +" + valor + "\n";
 	}
 
 	public Conta getDestino() {

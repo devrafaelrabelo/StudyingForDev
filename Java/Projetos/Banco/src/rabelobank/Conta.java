@@ -14,7 +14,7 @@ public class Conta {
 	List<CompTransferenciaEfetuada> CompTransferenciaEfetuada = new ArrayList<CompTransferenciaEfetuada>();
 	List<CompTransferenciaRecebida> CompTransferenciaRecebida = new ArrayList<CompTransferenciaRecebida>();	
 	List<CompDeposito> extratoDeposito = new ArrayList<CompDeposito>();
-	List<CompSaque> extratoDaque = new ArrayList<CompSaque>();
+	List<CompSaque> extratoSaque = new ArrayList<CompSaque>();
 
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
@@ -22,11 +22,18 @@ public class Conta {
 	}	
 
 	void depositoBancario(double deposito) {
-		this.saldo += deposito;
+		if (deposito != 0) {
+			this.saldo += deposito;
+			this.extratoDeposito.add(new CompDeposito(deposito));
+		}	
+		
 	}
 
 	void saqueBancario(double deposito) {
-		this.saldo -= deposito;
+		if (deposito != 0 && (this.saldo - deposito) >= 0) {
+			this.saldo -= deposito;
+			this.extratoSaque.add(new CompSaque(deposito));
+		}		
 	}
 
 	boolean transferBancario(double deposito, Conta conta) {
@@ -42,7 +49,7 @@ public class Conta {
 	}
 	
 	public void imprimirCompTransferenciaEfetuada() {
-		System.out.println("Extrato");
+		System.out.println("Extrato Transferencia Efetuada");
 		if( CompTransferenciaEfetuada.size() != 0) {
 			System.out.println(CompTransferenciaEfetuada);
 		} else {
@@ -51,9 +58,27 @@ public class Conta {
 	}
 	
 	public void imprimirCompTransferenciaRecebida() {
-		System.out.println("Extrato");
+		System.out.println("Extrato Transferencia Recebida");
 		if( CompTransferenciaRecebida.size() != 0) {
 			System.out.println(CompTransferenciaRecebida);
+		} else {
+			System.out.println("Não existe historico");
+		}
+	}
+	
+	public void imprimirCompDeposito() {
+		System.out.println("Extrato Deposito");
+		if( extratoDeposito.size() != 0) {
+			System.out.println(extratoDeposito);
+		} else {
+			System.out.println("Não existe historico");
+		}
+	}
+	
+	public void imprimirCompSaque() {
+		System.out.println("Extrato Saque");
+		if( extratoSaque.size() != 0) {
+			System.out.println(extratoSaque);
 		} else {
 			System.out.println("Não existe historico");
 		}

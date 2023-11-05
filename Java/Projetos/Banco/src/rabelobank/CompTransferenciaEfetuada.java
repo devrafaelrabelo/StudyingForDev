@@ -12,7 +12,7 @@ public class CompTransferenciaEfetuada {
 	
 	@Override
 	public String toString() {		
-		return "Destino = " + conta.getCodigo() + " - valor = " + valor + "\n";
+		return "Destino = " + conta.getCodigo() + " | R$ -" + valor + "\n";
 	}
 
 	public Conta getDestino() {
