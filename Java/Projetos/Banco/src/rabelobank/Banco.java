@@ -9,6 +9,9 @@ public class Banco {
 	List<Conta> contas = new ArrayList<Conta>();
 	List<Cliente> clientes = new ArrayList<Cliente>();
 
+//	Funçoes para buscar e imprimir as contas do Banco -----------------
+//	-------------------------------------------------
+	
 	public void imprimirContas() {
 		System.out.println("CONTAS:");
 		retornaClientes();
@@ -21,6 +24,50 @@ public class Banco {
 
 	}
 
+	public void retornaContasCorrente() {
+		for (Conta conta : contas) {
+			if (conta.getDigito() == 1) {
+				System.out.println(conta);
+			}
+		}
+	}
+
+	public void imprimirContasCorrente() {
+		System.out.println("CONTAS CORRENTE:");
+		retornaContasCorrente();
+	}
+
+	public void retornaContasPoupanca() {
+		for (Conta conta : contas) {
+			if (conta.getDigito() == 2) {
+				System.out.println(conta);
+			}
+		}
+	}
+
+	public void imprimirContasPoupanca() {
+		System.out.println("CONTAS POUPANÇA:");
+		retornaContasPoupanca();
+	}
+
+	public void retornaContasSimple() {
+		for (Conta conta : contas) {
+			if (conta.getDigito() == 0) {
+				System.out.println(conta);
+			}
+		}
+	}
+
+	public void imprimirContasSimples() {
+		System.out.println("CONTAS:");
+		retornaContasSimple();
+	}
+
+//	-------------------------------------------------
+//	-------------------------------------------------------------------
+	
+//	Funçoes para validar se a conta e cliente desejado existe no banco 
+//	-------------------------------------------------
 	public Conta retornaContasObj(String codigo) {
 		for (Conta conta : contas) {
 			if (conta.getCodigo().equals(codigo)) {
@@ -38,25 +85,15 @@ public class Banco {
 		}
 		return null;
 	}
-
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------
+	
+//	Funçoes para buscar e imprimir as Cliente do Banco ----------------
+//	-------------------------------------------------
 	public void imprimirClientes() {
 		System.out.println("CORRENTISTAS:");
 		retornaClientes();
-	}
-
-	public void imprimirContasCorrente() {
-		System.out.println("CONTAS CORRENTE:");
-		retornaContasCorrente();
-	}
-
-	public void imprimirContasPoupanca() {
-		System.out.println("CONTAS POUPANÇA:");
-		retornaContasPoupanca();
-	}
-
-	public void imprimirContasContas() {
-		System.out.println("CONTAS:");
-		retornaContasContas();
 	}
 
 	public void retornaClientes() {
@@ -66,32 +103,28 @@ public class Banco {
 
 	}
 
-	public void retornaContasCorrente() {
-		for (Conta conta : contas) {
-			if (conta.getDigito() == 1) {
-				System.out.println(conta);
-			}
-		}
-	}
-
-	public void retornaContasPoupanca() {
-		for (Conta conta : contas) {
-			if (conta.getDigito() == 2) {
-				System.out.println(conta);
-			}
-		}
-	}
-
-	public void retornaContasContas() {
-		for (Conta conta : contas) {
-			if (conta.getDigito() == 0) {
-				System.out.println(conta);
-			}
-		}
-	}
-
+//	-------------------------------------------------
+//	-------------------------------------------------------------------
+	
+//	Metodos Padroes ToString, Getters, Setters, hashcode, equals e etc 
+//	-------------------------------------------------
+	
 	public String getNome() {
 		return nome;
 	}
+
+	@Override
+	public String toString() {
+		return "------------------------------------"
+				+ "\nBanco\n"
+				+ "Nome: " + nome 
+				+ "\nContas: " + contas.size() 
+				+ "\nClientes: " + clientes.size()
+				+ "\n------------------------------------";
+	}
+	
+//	-------------------------------------------------
+//	-------------------------------------------------------------------
+
 
 }

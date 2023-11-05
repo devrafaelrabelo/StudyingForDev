@@ -1,18 +1,18 @@
 package rabelobank;
 
-public class ExtratoEfetuado {
+public class CompTransferenciaRecebida {
 
 	Conta conta;
 	double valor;
 
-	public ExtratoEfetuado(Conta destino, double valor) {
+	public CompTransferenciaRecebida(Conta destino, double valor) {
 		this.conta = destino;
 		this.valor = valor;
 	}
 
 	@Override
 	public String toString() {
-		return "Extrato [destino=" + conta + ", valor=" + valor + "]";
+		return "Origem = " + conta.getCodigo() + " - valor = " + valor + "\n";
 	}
 
 	public Conta getDestino() {
