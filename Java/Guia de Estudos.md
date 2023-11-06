@@ -351,7 +351,7 @@
 ####    ->  7. Foreach Funcional #02
                 -> Com Código
 ####    ->  8. Resumo Interfaces Funcionais
-                -> 
+                -> Sem Código
 ####    ->  9. Predicate #01
                 -> 
 ####    ->  10. Consumer
