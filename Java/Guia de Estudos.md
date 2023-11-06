@@ -334,3 +334,43 @@
 ####    ->  33. Conclusão Módulo
                 -> Sem Código
                 Conclusão Módulo
+
+### 8. Lambdas
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Primeira Função Lambda
+                -> 
+####    ->  3. Interfaces Funcionais #01
+                -> 
+####    ->  4. Interfaces Funcionais #02
+                -> 
+####    ->  5. Usando Interfaces Funcionais
+                -> 
+####    ->  6. Foreach Funcional #01
+                -> 
+####    ->  7. Foreach Funcional #02
+                -> 
+####    ->  8. Resumo Interfaces Funcionais
+                -> 
+####    ->  9. Predicate #01
+                -> 
+####    ->  10. Consumer
+                -> 
+####    ->  11. Function
+                -> 
+####    ->  12. Predicate #02
+                -> 
+####    ->  13. Supplier
+                -> 
+####    ->  14. Unary Operator
+                -> 
+####    ->  15. Binary Operator e BiFunction
+                -> 
+####    ->  16. Desafio Binary Operator
+                -> 
+####    ->  17. Desafio Binary Operator - Resposta
+                -> 
+####    ->  18. Interfaces Funcionais Antes Java 8
+                -> 
+####    ->  19. Conclusão Módulo
+                -> 
