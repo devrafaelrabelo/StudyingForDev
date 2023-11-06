@@ -357,7 +357,7 @@
 ####    ->  10. Consumer
                 -> Com Código
 ####    ->  11. Function
-                -> 
+                -> Com Código
 ####    ->  12. Predicate #02
                 -> 
 ####    ->  13. Supplier

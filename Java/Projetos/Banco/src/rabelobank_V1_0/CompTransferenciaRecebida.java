@@ -1,18 +1,18 @@
-package rabelobank;
+package rabelobank_V1_0;
 
-public class CompTransferenciaEfetuada {
+public class CompTransferenciaRecebida {
 
 	Conta conta;
 	double valor;
 
-	public CompTransferenciaEfetuada(Conta destino, double valor) {
-		this.conta = destino;
+	public CompTransferenciaRecebida(Conta origem, double valor) {
+		this.conta = origem;
 		this.valor = valor;
 	}
-	
+
 	@Override
-	public String toString() {		
-		return "Destino = " + conta.getCodigo() + " | R$ -" + valor + "\n";
+	public String toString() {
+		return "Origem = " + conta.getCodigo() + " | R$ +" + valor + "\n";
 	}
 
 	public Conta getDestino() {
