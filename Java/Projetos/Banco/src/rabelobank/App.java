@@ -66,9 +66,6 @@ public class App {
 		System.out.println(banco.retornaContasObj("10001-1"));
 		System.out.println(banco.retornaContasObj("10003-1"));
 
-		// System.out.println();
-		// System.out.println(banco);
-
 		entrada.close();
 	}
 }
