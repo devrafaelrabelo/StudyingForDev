@@ -7,8 +7,7 @@ public class App {
 		Scanner entrada = new Scanner(System.in);
 
 		Banco banco = new Banco();
-		System.out.println("Bem Vindo ao RabeloBank");
-		// System.out.println(banco);
+		System.out.println("Bem Vindo ao RabeloBank");	
 
 		Conta cc1 = new ContaCorrente(10001, banco);
 		Conta cc2 = new ContaPoupanca(10002, banco);
@@ -27,6 +26,8 @@ public class App {
 		new Cliente("Jair Rabelo", 11111111105L, "29/03/1995", banco, cc6);
 		new Cliente("Maria Rabelo", 11111111106L, "29/03/1996", banco, cc7);
 		new Cliente("Filhote Rabelo", 11111111107L, "29/03/1997", banco, cc8);
+		
+		System.out.println(banco);
 
 		System.out.println(banco.retornaContasObj("10003-1"));
 

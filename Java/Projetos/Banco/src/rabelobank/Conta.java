@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Conta {
+public abstract class Conta {
 
 	final private int IDCONTA;
 	private int digito;
@@ -15,7 +15,7 @@ public class Conta {
 	List<CompTransferenciaRecebida> CompTransferenciaRecebida = new ArrayList<CompTransferenciaRecebida>();	
 	List<CompDeposito> extratoDeposito = new ArrayList<CompDeposito>();
 	List<CompSaque> extratoSaque = new ArrayList<CompSaque>();
-	List<ExtratoCompleto> extratoCompleto = new ArrayList<ExtratoCompleto>();
+	List<Comp> extratoCompleto = new ArrayList<Comp>();
 
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
@@ -36,7 +36,7 @@ public class Conta {
 		if (deposito != 0) {
 			this.saldo += deposito;
 			this.extratoDeposito.add(new CompDeposito(deposito));
-			this.extratoCompleto.add(new ExtratoCompleto("R$ +" + deposito + "\n"));
+			this.extratoCompleto.add(new Comp("R$ +" + deposito + "\n"));
 			return true;
 		}
 		return false;	
@@ -47,7 +47,7 @@ public class Conta {
 		if (deposito > 0 && (this.saldo - deposito) >= 0) {
 			this.saldo -= deposito;
 			this.extratoSaque.add(new CompSaque(deposito));
-			this.extratoCompleto.add(new ExtratoCompleto("R$ -" + deposito + "\n"));
+			this.extratoCompleto.add(new Comp("R$ -" + deposito + "\n"));
 			return true;
 		}		
 		return false;	
@@ -61,10 +61,10 @@ public class Conta {
 				conta.extratoDeposito.add(new CompDeposito(deposito));
 				this.CompTransferenciaEfetuada.add(new CompTransferenciaEfetuada(conta, deposito));
 				this.extratoCompleto
-						.add(new ExtratoCompleto("Destino = " + conta.getCodigo() + " | R$ +" + deposito + "\n"));
+						.add(new Comp("Destino = " + conta.getCodigo() + " | R$ +" + deposito + "\n"));
 				conta.CompTransferenciaRecebida.add(new CompTransferenciaRecebida(this, deposito));
 				conta.extratoCompleto
-						.add(new ExtratoCompleto("Origem = " + this.getCodigo() + " | R$ +" + deposito + "\n"));
+						.add(new Comp("Origem = " + this.getCodigo() + " | R$ +" + deposito + "\n"));
 				return true;
 			}
 		} else {

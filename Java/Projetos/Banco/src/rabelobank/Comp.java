@@ -1,10 +1,10 @@
 package rabelobank;
 
-public class ExtratoCompleto {
+public class Comp {
 	
 	String transacao;	
 
-	public ExtratoCompleto(String transacao) {
+	public Comp(String transacao) {
 		this.transacao = transacao;
 	}
 	
