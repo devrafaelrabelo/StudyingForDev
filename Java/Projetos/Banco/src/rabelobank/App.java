@@ -7,7 +7,7 @@ public class App {
 		Scanner entrada = new Scanner(System.in);
 
 		Banco banco = new Banco();
-		System.out.println("Bem Vindo ao RabeloBank");	
+		System.out.println("Bem Vindo ao RabeloBank");
 
 		Conta cc1 = new ContaCorrente(10001, banco);
 		Conta cc2 = new ContaPoupanca(10002, banco);
@@ -26,19 +26,18 @@ public class App {
 		new Cliente("Jair Rabelo", 11111111105L, "29/03/1995", banco, cc6);
 		new Cliente("Maria Rabelo", 11111111106L, "29/03/1996", banco, cc7);
 		new Cliente("Filhote Rabelo", 11111111107L, "29/03/1997", banco, cc8);
-		
-		System.out.println(banco);
 
-		System.out.println(banco.retornaContasObj("10003-1"));
+		System.out.println(banco);
+		
+	
 
 		banco.retornaContasObj("10001-1").depositoBancario(50000);
 		banco.retornaContasObj("10001-1").transferBancario(2000, banco.retornaContasObj("10003-1"));
 		banco.retornaContasObj("10001-1").depositoBancario(40000);
 		banco.retornaContasObj("10001-1").saqueBancario(8000);
-		banco.retornaContasObj("10001-1").depositoBancario(10000);		
+		banco.retornaContasObj("10001-1").depositoBancario(10000);
 		banco.retornaContasObj("10001-1").transferBancario(38000, banco.retornaContasObj("10003-1"));
 		banco.retornaContasObj("10001-1").saqueBancario(52000);
-		System.out.println(banco.retornaContasObj("10001-1"));
 
 		banco.retornaContasObj("10003-1").depositoBancario(2000);
 		banco.retornaContasObj("10003-1").saqueBancario(900000);
@@ -50,13 +49,9 @@ public class App {
 		banco.retornaContasObj("10003-1").saqueBancario(8000);
 		banco.retornaContasObj("10003-1").depositoBancario(2000);
 		banco.retornaContasObj("10003-1").saqueBancario(26000);
-		System.out.println(banco.retornaContasObj("10003-1"));
 
 		System.out.println(banco.retornaContasObj("10001-1"));
 		System.out.println(banco.retornaContasObj("10003-1"));
-
-		
-		
 
 		banco.retornaContasObj("10001-1").imprimirExtratoCompleto();
 
@@ -64,7 +59,7 @@ public class App {
 		System.out.println();
 
 		banco.retornaContasObj("10003-1").imprimirExtratoCompleto();
-	
+
 		System.out.println();
 		System.out.println();
 
