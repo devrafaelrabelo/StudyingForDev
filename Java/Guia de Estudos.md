@@ -349,7 +349,7 @@
 ####    ->  6. Foreach Funcional #01
                 -> Com Código
 ####    ->  7. Foreach Funcional #02
-                -> 
+                -> Com Código
 ####    ->  8. Resumo Interfaces Funcionais
                 -> 
 ####    ->  9. Predicate #01
