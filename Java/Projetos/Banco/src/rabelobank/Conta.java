@@ -15,37 +15,62 @@ public class Conta {
 	List<CompTransferenciaRecebida> CompTransferenciaRecebida = new ArrayList<CompTransferenciaRecebida>();	
 	List<CompDeposito> extratoDeposito = new ArrayList<CompDeposito>();
 	List<CompSaque> extratoSaque = new ArrayList<CompSaque>();
+	List<ExtratoCompleto> extratoCompleto = new ArrayList<ExtratoCompleto>();
 
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
 		this.digito = digito;		
 	}	
+	
+	public void imprimirExtratoCompleto() {
+		System.out.println("Cliente " + this.clientes.get(0).getNome()
+				+ "\nExtrato Completo");
+		if( extratoCompleto.size() != 0) {
+			System.out.println(extratoCompleto);
+		} else {
+			System.out.println("Não existe historico");
+		}
+	}
 
-	void depositoBancario(double deposito) {
+	boolean depositoBancario(double deposito) {
 		if (deposito != 0) {
 			this.saldo += deposito;
 			this.extratoDeposito.add(new CompDeposito(deposito));
-		}	
+			this.extratoCompleto.add(new ExtratoCompleto("R$ +" + deposito + "\n"));
+			return true;
+		}
+		return false;	
 		
 	}
 
-	void saqueBancario(double deposito) {
-		if (deposito != 0 && (this.saldo - deposito) >= 0) {
+	boolean saqueBancario(double deposito) {
+		if (deposito > 0 && (this.saldo - deposito) >= 0) {
 			this.saldo -= deposito;
 			this.extratoSaque.add(new CompSaque(deposito));
+			this.extratoCompleto.add(new ExtratoCompleto("R$ -" + deposito + "\n"));
+			return true;
 		}		
+		return false;	
 	}
 
 	boolean transferBancario(double deposito, Conta conta) {
 		if (conta != null) {
-			this.saldo -= deposito;
-			conta.depositoBancario(deposito);
-			this.CompTransferenciaEfetuada.add(new CompTransferenciaEfetuada(conta, deposito));
-			conta.CompTransferenciaRecebida.add(new CompTransferenciaRecebida(this, deposito));
-			return true;
+			if (deposito > 0 && (this.saldo - deposito) >= 0) {
+				this.saldo -= deposito;
+				conta.saldo += deposito;
+				conta.extratoDeposito.add(new CompDeposito(deposito));
+				this.CompTransferenciaEfetuada.add(new CompTransferenciaEfetuada(conta, deposito));
+				this.extratoCompleto
+						.add(new ExtratoCompleto("Destino = " + conta.getCodigo() + " | R$ +" + deposito + "\n"));
+				conta.CompTransferenciaRecebida.add(new CompTransferenciaRecebida(this, deposito));
+				conta.extratoCompleto
+						.add(new ExtratoCompleto("Origem = " + this.getCodigo() + " | R$ +" + deposito + "\n"));
+				return true;
+			}
 		} else {
 			return false;
 		}
+		return false;
 	}
 	
 	public void imprimirCompTransferenciaEfetuada() {

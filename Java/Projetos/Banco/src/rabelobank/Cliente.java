@@ -6,30 +6,23 @@ import java.util.Objects;
 
 public class Cliente {
 
-	private String nome;
+	private String nomeTitular;
 	private Long CPF;
 	private String nascimento;
 	List<Conta> contas = new ArrayList<>();
 	Banco banco;
 	
 //	Construtores 
-//	-------------------------------------------------
-	
-	public Cliente(Cliente cliente, Conta conta, Banco banco) {
-		this.nome = cliente.nome;
-		this.CPF = cliente.CPF;
-		this.nascimento = cliente.nascimento;
-		adicionandoCliente(this, banco, conta);
-	}
+//	------------------------------------------------
 	
 	public Cliente(String nome, Long cPF, String nascimento) {
-		this.nome = nome;
+		this.nomeTitular = nome;
 		this.CPF = cPF;
 		this.nascimento = nascimento;		
 	}		
 	
 	public Cliente(String nome, Long cPF, String nascimento, Banco banco, Conta conta) {
-		this.nome = nome;
+		this.nomeTitular = nome;
 		this.CPF = cPF;
 		this.nascimento = nascimento;
 		adicionandoCliente(this, banco, conta);
@@ -46,6 +39,7 @@ public class Cliente {
 			return false;
 		}
 		contas.add(conta);
+		conta.clientes.add(cliente);
 		banco.clientes.add(cliente);
 		banco.contas.add(conta);
 		return true;
@@ -78,7 +72,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente" + "\nNome: " + nome + "\nCPF: " + CPF + "\nNascimento: " + nascimento + "\nContas:\n" + contas;
+		return "Cliente" + "\nNome: " + nomeTitular + "\nCPF: " + CPF + "\nNascimento: " + nascimento + "\nContas:\n" + contas;
 	}
 
 	@Override
@@ -99,11 +93,11 @@ public class Cliente {
 	}
 
 	public String getNome() {
-		return nome;
+		return nomeTitular;
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nomeTitular = nome;
 	}
 
 	public Long getCPF() {

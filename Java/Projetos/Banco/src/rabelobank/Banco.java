@@ -14,12 +14,12 @@ public class Banco {
 	
 	public void imprimirContas() {
 		System.out.println("CONTAS:");
-		retornaClientes();
+		retornaContas();
 	}
 
 	public void retornaContas() {
-		for (Cliente cliente : clientes) {
-			System.out.println(cliente.getNome());
+		for (Conta conta : contas) {
+			System.out.println(conta.getCodigo());
 		}
 
 	}
