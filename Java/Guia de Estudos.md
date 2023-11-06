@@ -353,7 +353,7 @@
 ####    ->  8. Resumo Interfaces Funcionais
                 -> Sem Código
 ####    ->  9. Predicate #01
-                -> 
+                -> Com Código
 ####    ->  10. Consumer
                 -> 
 ####    ->  11. Function
