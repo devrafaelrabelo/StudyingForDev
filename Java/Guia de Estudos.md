@@ -363,7 +363,7 @@
 ####    ->  13. Supplier
                 -> Com Código
 ####    ->  14. Unary Operator
-                -> 
+                -> Com Código
 ####    ->  15. Binary Operator e BiFunction
                 -> 
 ####    ->  16. Desafio Binary Operator
