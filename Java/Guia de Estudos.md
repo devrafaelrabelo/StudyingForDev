@@ -359,9 +359,9 @@
 ####    ->  11. Function
                 -> Com Código
 ####    ->  12. Predicate #02
-                -> 
+                -> Com Código
 ####    ->  13. Supplier
-                -> 
+                -> Com Código
 ####    ->  14. Unary Operator
                 -> 
 ####    ->  15. Binary Operator e BiFunction
