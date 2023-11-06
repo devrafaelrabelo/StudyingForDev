@@ -355,7 +355,7 @@
 ####    ->  9. Predicate #01
                 -> Com Código
 ####    ->  10. Consumer
-                -> 
+                -> Com Código
 ####    ->  11. Function
                 -> 
 ####    ->  12. Predicate #02
