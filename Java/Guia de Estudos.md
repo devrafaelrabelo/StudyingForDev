@@ -378,9 +378,9 @@
 
 ### 8. Lambdas
 ####    ->  1. Introdução do Módulo
-                -> 
+                -> Sem Código
 ####    ->  2. ListIteratorStream
-                -> 
+                -> Com Código
 ####    ->  3. Tipos de Operações
                 -> 
 ####    ->  4. Criando Stream
