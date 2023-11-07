@@ -365,7 +365,7 @@
 ####    ->  14. Unary Operator
                 -> Com Código
 ####    ->  15. Binary Operator e BiFunction
-                -> 
+                -> Com Código
 ####    ->  16. Desafio Binary Operator
                 -> 
 ####    ->  17. Desafio Binary Operator - Resposta
