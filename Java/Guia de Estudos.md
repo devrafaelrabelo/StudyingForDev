@@ -367,9 +367,9 @@
 ####    ->  15. Binary Operator e BiFunction
                 -> Com Código
 ####    ->  16. Desafio Binary Operator
-                -> 
+                -> Desafio Binary Operator | Com Código
 ####    ->  17. Desafio Binary Operator - Resposta
-                -> 
+                -> Desafio Binary Operator | Com Código
 ####    ->  18. Interfaces Funcionais Antes Java 8
                 -> 
 ####    ->  19. Conclusão Módulo
