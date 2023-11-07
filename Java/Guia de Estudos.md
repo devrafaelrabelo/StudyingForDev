@@ -375,3 +375,47 @@
 ####    ->  19. Conclusão Módulo
                 -> Sem Código
                 Conclusão Módulo
+
+### 8. Lambdas
+####    ->  1. Introdução do Módulo
+                -> 
+####    ->  2. ListIteratorStream
+                -> 
+####    ->  3. Tipos de Operações
+                -> 
+####    ->  4. Criando Stream
+                -> 
+####    ->  5. Map #01
+                -> 
+####    ->  6. Map #02
+                -> 
+####    ->  7. Desafio Map
+                -> 
+####    ->  8. Desafio Map - Resposta
+                -> 
+####    ->  9. Filter #01
+                -> 
+####    ->  10. Filter #02
+                -> 
+####    ->  11. Desafio Filter #01
+                -> 
+####    ->  12. Desafio Filter #02
+                -> 
+####    ->  13. Desafio Filter - Resposta
+                -> 
+####    ->  14. Reduce #01
+                -> 
+####    ->  15. Reduce #02
+                -> 
+####    ->  16. Reduce #03
+                -> 
+####    ->  17. Reduce #04
+                -> 
+####    ->  18. Match (All, Any e None)
+                -> 
+####    ->  19. Min e Max
+                -> 
+####    ->  20. Outros Métodos
+                -> 
+####    ->  21. Conclusão do Módulo
+                -> 
