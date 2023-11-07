@@ -382,11 +382,11 @@
 ####    ->  2. ListIteratorStream
                 -> Com Código
 ####    ->  3. Tipos de Operações
-                -> 
+                -> Sem Código
 ####    ->  4. Criando Stream
-                -> 
+                -> Com Código
 ####    ->  5. Map #01
-                -> 
+                -> Sem Código
 ####    ->  6. Map #02
                 -> 
 ####    ->  7. Desafio Map
