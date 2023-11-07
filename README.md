@@ -18,7 +18,7 @@
 ## 5. Classes e Métodos ✔
 ## 6. Arrays e Collections ✔
 ## 7. Orientação a Objetos ✔
-## 8. Lambdas
+## 8. Lambdas ✔
 ## 9. Stream API
 ## 10. Tratamento de Erros
 ## 11. Projeto - Campo Minado (+JUnit 5)
