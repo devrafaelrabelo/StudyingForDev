@@ -22,7 +22,7 @@ public class Resposta {
 				preco -> Double.parseDouble(String.format("%.2f", preco).replace(",", "."));
 		
 		Function<Double, String> formatar = 
-				preco -> ("R$" + preco).replace(".", ",");
+				preco -> ("R$ " + preco).replace(".", ",");
 				
 		
 		
