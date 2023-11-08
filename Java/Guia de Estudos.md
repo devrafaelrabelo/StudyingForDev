@@ -416,6 +416,6 @@
 ####    ->  19. Min e Max
                 -> Com Código
 ####    ->  20. Outros Métodos
-                -> 
+                -> Com Código
 ####    ->  21. Conclusão do Módulo
                 -> 
