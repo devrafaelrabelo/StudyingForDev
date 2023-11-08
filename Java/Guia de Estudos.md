@@ -334,3 +334,88 @@
 ####    ->  33. Conclusão Módulo
                 -> Sem Código
                 Conclusão Módulo
+
+### 8. Lambdas
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Primeira Função Lambda
+                -> Com Código
+####    ->  3. Interfaces Funcionais #01
+                -> Com Código
+####    ->  4. Interfaces Funcionais #02
+                -> Com Código
+####    ->  5. Usando Interfaces Funcionais
+                -> Com Código
+####    ->  6. Foreach Funcional #01
+                -> Com Código
+####    ->  7. Foreach Funcional #02
+                -> Com Código
+####    ->  8. Resumo Interfaces Funcionais
+                -> Sem Código
+####    ->  9. Predicate #01
+                -> Com Código
+####    ->  10. Consumer
+                -> Com Código
+####    ->  11. Function
+                -> Com Código
+####    ->  12. Predicate #02
+                -> Com Código
+####    ->  13. Supplier
+                -> Com Código
+####    ->  14. Unary Operator
+                -> Com Código
+####    ->  15. Binary Operator e BiFunction
+                -> Com Código
+####    ->  16. Desafio Binary Operator
+                -> Desafio Binary Operator | Com Código
+####    ->  17. Desafio Binary Operator - Resposta
+                -> Desafio Binary Operator | Com Código
+####    ->  18. Interfaces Funcionais Antes Java 8
+                -> Com Código
+####    ->  19. Conclusão Módulo
+                -> Sem Código
+                Conclusão Módulo
+
+### 8. Lambdas
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. ListIteratorStream
+                -> Com Código
+####    ->  3. Tipos de Operações
+                -> Sem Código
+####    ->  4. Criando Stream
+                -> Com Código
+####    ->  5. Map #01
+                -> Sem Código
+####    ->  6. Map #02
+                -> Com Código
+####    ->  7. Desafio Map
+                -> Desafio Map | Com Código
+####    ->  8. Desafio Map - Resposta
+                -> Desafio Map | Com Código
+####    ->  9. Filter #01
+                -> Sem Código
+####    ->  10. Filter #02
+                -> Com Código 
+####    ->  11. Desafio Filter #01
+                -> Desafio Filter #01 | Com Código 
+####    ->  12. Desafio Filter #02
+                -> Desafio Filter #02 | Com Código
+####    ->  13. Desafio Filter - Resposta
+                -> Desafio Filter #02 | Com Código
+####    ->  14. Reduce #01
+                -> 
+####    ->  15. Reduce #02
+                -> 
+####    ->  16. Reduce #03
+                -> 
+####    ->  17. Reduce #04
+                -> 
+####    ->  18. Match (All, Any e None)
+                -> 
+####    ->  19. Min e Max
+                -> 
+####    ->  20. Outros Métodos
+                -> 
+####    ->  21. Conclusão do Módulo
+                -> 

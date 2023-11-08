@@ -12,20 +12,13 @@
 ### Java 13 COMPLETO Do Zero ao Profissional + Projetos Reais!
 
 ## 1. Introdução ✔
-### 1.1. Introdução [Versão Original]
 ## 2. Configuração do Ambiente ✔
-### 2.1. Ambiente [Versão Original]
 ## 3. Fundamentos ✔
-### 3.1. Conceitos Básicos [Versão Original]
 ## 4. Estruturas de Controle ✔
-### 4.1. Estruturas de Controle [Versão Original]
 ## 5. Classes e Métodos ✔
-### 5.1. Classes e Métodos  [Versão Original]
 ## 6. Arrays e Collections ✔
-### 6.1. Arrays e Coleções  [Versão Original]
 ## 7. Orientação a Objetos ✔
-### 7.1. Orientação a Objetos [Versão Original]
-## 8. Lambdas
+## 8. Lambdas ✔
 ## 9. Stream API
 ## 10. Tratamento de Erros
 ## 11. Projeto - Campo Minado (+JUnit 5)
