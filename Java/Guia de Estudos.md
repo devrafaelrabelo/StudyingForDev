@@ -390,9 +390,9 @@
 ####    ->  6. Map #02
                 -> Com Código
 ####    ->  7. Desafio Map
-                -> 
+                -> Desafio Map | Com Código
 ####    ->  8. Desafio Map - Resposta
-                -> 
+                -> Desafio Map | Com Código
 ####    ->  9. Filter #01
                 -> 
 ####    ->  10. Filter #02
