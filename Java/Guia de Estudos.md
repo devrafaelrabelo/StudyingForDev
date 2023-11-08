@@ -404,18 +404,19 @@
 ####    ->  13. Desafio Filter - Resposta
                 -> Desafio Filter #02 | Com Código
 ####    ->  14. Reduce #01
-                -> 
+                -> Sem Código
 ####    ->  15. Reduce #02
-                -> 
+                -> Com Código
 ####    ->  16. Reduce #03
-                -> 
+                -> Com Código
 ####    ->  17. Reduce #04
-                -> 
+                -> Com Código
 ####    ->  18. Match (All, Any e None)
-                -> 
+                -> Com Código
 ####    ->  19. Min e Max
-                -> 
+                -> Com Código
 ####    ->  20. Outros Métodos
-                -> 
+                -> Com Código
 ####    ->  21. Conclusão do Módulo
-                -> 
+                -> Sem Código
+                Conclusão Módulo
