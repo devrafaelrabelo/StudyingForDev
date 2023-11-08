@@ -400,9 +400,9 @@
 ####    ->  11. Desafio Filter #01
                 -> Desafio Filter #01 | Com Código 
 ####    ->  12. Desafio Filter #02
-                -> 
+                -> Desafio Filter #02 | Com Código
 ####    ->  13. Desafio Filter - Resposta
-                -> 
+                -> Desafio Filter #02 | Com Código
 ####    ->  14. Reduce #01
                 -> 
 ####    ->  15. Reduce #02
