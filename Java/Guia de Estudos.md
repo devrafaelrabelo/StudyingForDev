@@ -414,7 +414,7 @@
 ####    ->  18. Match (All, Any e None)
                 -> Com Código
 ####    ->  19. Min e Max
-                -> 
+                -> Com Código
 ####    ->  20. Outros Métodos
                 -> 
 ####    ->  21. Conclusão do Módulo
