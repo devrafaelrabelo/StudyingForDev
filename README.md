@@ -20,7 +20,7 @@
 ## 7. Orientação a Objetos ✔
 ## 8. Lambdas ✔
 ## 9. Stream API ✔
-## 10. Tratamento de Erros
+## 10. Tratamento de Erros ✔
 ## 11. Projeto - Campo Minado (+JUnit 5)
 ## 12. Generics
 ## 13. Java Desktop com Swing
