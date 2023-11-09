@@ -376,7 +376,7 @@
                 -> Sem Código
                 Conclusão Módulo
 
-### 8. Lambdas
+### 9. Lambdas
 ####    ->  1. Introdução do Módulo
                 -> Sem Código
 ####    ->  2. ListIteratorStream
