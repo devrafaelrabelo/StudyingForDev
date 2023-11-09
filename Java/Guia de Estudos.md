@@ -420,3 +420,28 @@
 ####    ->  21. Conclusão do Módulo
                 -> Sem Código
                 Conclusão Módulo
+
+### 10. Tratamento de Erros
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Tipos de Erros
+                -> 
+####    ->  3. Pilha de Métodos
+                -> 
+####    ->  4. O Básico Sobre Exceção
+                -> 
+####    ->  5. Exceção Checada vs Exceção Não Checada #01
+                -> 
+####    ->  6. Exceção Checada vs Exceção Não Checada #02
+                -> 
+####    ->  7. Exceção Personalizada #01
+                -> 
+####    ->  8. Exceção Personalizada #02
+                -> 
+####    ->  9. Finally
+                -> 
+####    ->  10. Exceção Causadora
+                -> 
+####    ->  11. Conclusão do Módulo
+                -> 
+
