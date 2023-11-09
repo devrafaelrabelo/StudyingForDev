@@ -437,7 +437,7 @@
 ####    ->  7. Exceção Personalizada #01
                 -> Com Código
 ####    ->  8. Exceção Personalizada #02
-                -> 
+                -> Com Código
 ####    ->  9. Finally
                 -> 
 ####    ->  10. Exceção Causadora
