@@ -439,9 +439,10 @@
 ####    ->  8. Exceção Personalizada #02
                 -> Com Código
 ####    ->  9. Finally
-                ->  
+                -> Com Código
 ####    ->  10. Exceção Causadora
-                -> 
+                -> Com Código
 ####    ->  11. Conclusão do Módulo
-                -> 
+                -> Sem Código
+                Conclusão Módulo
 
