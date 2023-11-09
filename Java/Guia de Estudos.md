@@ -376,7 +376,7 @@
                 -> Sem Código
                 Conclusão Módulo
 
-### 8. Lambdas
+### 9. Stream API
 ####    ->  1. Introdução do Módulo
                 -> Sem Código
 ####    ->  2. ListIteratorStream
@@ -418,5 +418,30 @@
 ####    ->  20. Outros Métodos
                 -> Com Código
 ####    ->  21. Conclusão do Módulo
+                -> Sem Código
+                Conclusão Módulo
+
+### 10. Tratamento de Erros
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Tipos de Erros
+                -> Sem Código
+####    ->  3. Pilha de Métodos
+                -> Sem Código
+####    ->  4. O Básico Sobre Exceção
+                -> Com Código
+####    ->  5. Exceção Checada vs Exceção Não Checada #01
+                -> Com Código
+####    ->  6. Exceção Checada vs Exceção Não Checada #02
+                -> Sem Código
+####    ->  7. Exceção Personalizada #01
+                -> Com Código
+####    ->  8. Exceção Personalizada #02
+                -> Com Código
+####    ->  9. Finally
+                -> Com Código
+####    ->  10. Exceção Causadora
+                -> Com Código
+####    ->  11. Conclusão do Módulo
                 -> Sem Código
                 Conclusão Módulo
