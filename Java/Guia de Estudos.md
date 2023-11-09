@@ -431,7 +431,7 @@
 ####    ->  4. O Básico Sobre Exceção
                 -> Com Código
 ####    ->  5. Exceção Checada vs Exceção Não Checada #01
-                -> 
+                -> Com Código
 ####    ->  6. Exceção Checada vs Exceção Não Checada #02
                 -> 
 ####    ->  7. Exceção Personalizada #01
