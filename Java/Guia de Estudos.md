@@ -461,7 +461,7 @@
 ####    ->  003 Algoritmo, Automação, Programa de Computador
             -> Sem Código
 ####    ->  004 O que é preciso para se fazer um programa de computador
-            ->
+            -> Sem Código
 ####    ->  005 Linguagem de programação, léxica, sintática
             ->
 ####    ->  006 IDE - Ambiente Integrado de Desenvolvimento
