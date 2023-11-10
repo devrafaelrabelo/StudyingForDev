@@ -465,9 +465,9 @@
 ####    ->  005 Linguagem de programação, léxica, sintática
             -> Sem Código
 ####    ->  006 IDE - Ambiente Integrado de Desenvolvimento
-            ->
+            -> Sem Código
 ####    ->  007 Compilação, interpretação, código fonte, código objeto, máquina virtual
-            ->
+            -> 
 
 ### 03 - Introdução à linguagem Java
 ####    ->  001 Visão geral do capítulo
