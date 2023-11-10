@@ -452,6 +452,7 @@
 ### 01 - Introdução 
 ####    ->  001 Introdução visão geral do curso               
             -> Sem Código
+Concluido ✔
 
 ### 02 - Conceitos de programação
 ####    ->  001 Visão geral do capítulo
@@ -468,6 +469,7 @@
             -> Sem Código
 ####    ->  007 Compilação, interpretação, código fonte, código objeto, máquina virtual
             -> Sem Código
+Concluido ✔
 
 ### 03 - Introdução à linguagem Java
 ####    ->  001 Visão geral do capítulo
