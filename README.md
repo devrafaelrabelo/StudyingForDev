@@ -6,7 +6,7 @@
 
 ### Inicializando os Estudos com Github
 
-
+# ------------------------------------------------------------
 ### Inicializando os Estudos com Java
 
 ### Java 13 COMPLETO Do Zero ao Profissional + Projetos Reais!
@@ -33,7 +33,7 @@
 #### 28. Tópicos Avançados [Versão Original]
 #### 29. Conclusão [Versão Original]
 
-## -----------------------------------------------------------------------
+# ------------------------------------------------------------
 
 ### Curso Java - Prof Nelio Alves
 #### 01 - Introdução 
@@ -63,8 +63,7 @@
 #### 25 - Interface gráfica com JavaFX
 #### 26 - Seção bônus
 
-## ########################################################################
-
+# ------------------------------------------------------------
 ### Inicializando os Estudos com JavaScript
 
 
