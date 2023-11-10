@@ -463,7 +463,7 @@
 ####    ->  004 O que é preciso para se fazer um programa de computador
             -> Sem Código
 ####    ->  005 Linguagem de programação, léxica, sintática
-            ->
+            -> Sem Código
 ####    ->  006 IDE - Ambiente Integrado de Desenvolvimento
             ->
 ####    ->  007 Compilação, interpretação, código fonte, código objeto, máquina virtual
