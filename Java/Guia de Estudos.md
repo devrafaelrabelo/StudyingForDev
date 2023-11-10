@@ -459,7 +459,7 @@
 ####    ->  002 Material de apoio do capítulo - PDF
             -> Sem Código
 ####    ->  003 Algoritmo, Automação, Programa de Computador
-            ->
+            -> Sem Código
 ####    ->  004 O que é preciso para se fazer um programa de computador
             ->
 ####    ->  005 Linguagem de programação, léxica, sintática
