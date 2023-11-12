@@ -486,7 +486,7 @@ Concluido ✔
 ####    ->  005 JDK  JVM - Máquina Virtual do Java
             -> Sem Código
 ####    ->  006 Estrutura de uma aplicação Java
-            ->
+            -> Sem Código
 ####    ->  007 Instalando o Java JDK - PDF
             ->
 ####    ->  008 Instalando o Eclipse
