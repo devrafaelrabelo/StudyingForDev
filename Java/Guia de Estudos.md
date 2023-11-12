@@ -490,7 +490,7 @@ Concluido ✔
 ####    ->  007 Instalando o Java JDK - PDF
             -> Sem Código
 ####    ->  008 Instalando o Eclipse
-            ->
+            -> Sem Código
 ####    ->  009 Primeiro programa em Java no Eclipse
             ->
 
