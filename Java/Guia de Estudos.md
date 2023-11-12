@@ -492,16 +492,16 @@ Concluido ✔
 ####    ->  008 Instalando o Eclipse
             -> Sem Código
 ####    ->  009 Primeiro programa em Java no Eclipse
-            -> Com Código
+            -> Sem Código
 Concluido ✔
 
 ### 04 - Estrutura sequencial
 ####    -> 001 Visão geral do capítulo
-            ->
+            -> Sem Código
 ####    -> 002 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    -> 003 Expressões aritméticas
-            ->
+            -> Sem Código
 ####    -> 004 Variáveis e tipos básicos em Java
             ->
 ####    -> 005 As três operações básicas de programação
