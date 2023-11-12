@@ -1,7 +1,5 @@
 ## Curso Java 13 COD3R's
 
-############################################################
-
 ### 1. Introdução
 ####    ->  1. Visão Geral de Algoritmo
 ####    ->  2. Visão Geral de Estrutura de Dados
@@ -448,46 +446,54 @@
                 -> Sem Código
                 Conclusão Módulo
 
+============================================================================================
+## #########################################################################################
+============================================================================================
+
 ## Curso Java - Prof Nelio Alves
-### 01 - Introdução
+
+### 01 - Introdução 
 ####    ->  001 Introdução visão geral do curso               
             -> Sem Código
+Concluido ✔
 
 ### 02 - Conceitos de programação
 ####    ->  001 Visão geral do capítulo
-            ->
+            -> Sem Código
 ####    ->  002 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    ->  003 Algoritmo, Automação, Programa de Computador
-            ->
+            -> Sem Código
 ####    ->  004 O que é preciso para se fazer um programa de computador
-            ->
+            -> Sem Código
 ####    ->  005 Linguagem de programação, léxica, sintática
-            ->
+            -> Sem Código
 ####    ->  006 IDE - Ambiente Integrado de Desenvolvimento
-            ->
+            -> Sem Código
 ####    ->  007 Compilação, interpretação, código fonte, código objeto, máquina virtual
-            ->
+            -> Sem Código
+Concluido ✔
 
 ### 03 - Introdução à linguagem Java
 ####    ->  001 Visão geral do capítulo
-            ->
+            -> Sem Código
 ####    ->  002 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    ->  003 Entendendo as versões do Java
-            ->
+            -> Sem Código
 ####    ->  004 Histórico e edições de Java
-            ->
+            -> Sem Código
 ####    ->  005 JDK  JVM - Máquina Virtual do Java
-            ->
+            -> Sem Código
 ####    ->  006 Estrutura de uma aplicação Java
-            ->
+            -> Sem Código
 ####    ->  007 Instalando o Java JDK - PDF
-            ->
+            -> Sem Código
 ####    ->  008 Instalando o Eclipse
-            ->
+            -> Sem Código
 ####    ->  009 Primeiro programa em Java no Eclipse
-            ->
+            -> Com Código
+Concluido ✔
 
 ### 04 - Estrutura sequencial
 ####    -> 001 Visão geral do capítulo
