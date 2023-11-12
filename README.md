@@ -36,9 +36,9 @@
 # ------------------------------------------------------------
 
 ### Curso Java - Prof Nelio Alves
-#### 01 - Introdução 
-#### 02 - Conceitos de programação
-#### 03 - Introdução à linguagem Java
+#### 01 - Introdução ✔
+#### 02 - Conceitos de programação ✔
+#### 03 - Introdução à linguagem Java ✔
 #### 04 - Estrutura sequencial
 #### 05 - Estrutura condicional
 #### 06 - Estruturas repetitivas
