@@ -505,7 +505,7 @@ Concluido ✔
 ####    -> 004 Variáveis e tipos básicos em Java
             -> Sem Código
 ####    -> 005 As três operações básicas de programação
-            -> Sem Código
+            -> Com Código
 ####    -> 006 Saída de dados em Java
             -> 
 ####    -> 007 Processamento de dados em Java, Casting
