@@ -492,7 +492,7 @@ Concluido ✔
 ####    ->  008 Instalando o Eclipse
             -> Sem Código
 ####    ->  009 Primeiro programa em Java no Eclipse
-            ->
+            -> Com Código
 
 ### 04 - Estrutura sequencial
 ####    -> 001 Visão geral do capítulo
