@@ -513,7 +513,7 @@ Concluido ✔
 ####    -> 008 Entrada de dados em Java - Parte 1
             -> Com Código
 ####    -> 009 Entrada de dados em Java - Parte 2
-            -> 
+            -> Com Código
 ####    -> 010 Funções matemáticas em Java
             -> 
 ####    -> 011 AVISO exercícios para iniciantes PARTE 1
