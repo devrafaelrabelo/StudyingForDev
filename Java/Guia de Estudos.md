@@ -503,23 +503,23 @@ Concluido ✔
 ####    -> 003 Expressões aritméticas
             -> Sem Código
 ####    -> 004 Variáveis e tipos básicos em Java
-            ->
+            -> Sem Código
 ####    -> 005 As três operações básicas de programação
-            ->
+            -> 
 ####    -> 006 Saída de dados em Java
-            ->
+            -> 
 ####    -> 007 Processamento de dados em Java, Casting
-            ->
+            -> 
 ####    -> 008 Entrada de dados em Java - Parte 1
-            ->
+            -> 
 ####    -> 009 Entrada de dados em Java - Parte 2
-            ->
+            -> 
 ####    -> 010 Funções matemáticas em Java
-            ->
+            -> 
 ####    -> 011 AVISO exercícios para iniciantes PARTE 1
-            ->
+            -> 
 ####    -> 012 Exercícios para Iniciantes - PARTE 1
-            ->
+            -> 
 
 ### 05 - Estrutura condicional
 ####    -> 001 Visão geral do capítulo
