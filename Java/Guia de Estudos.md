@@ -515,7 +515,7 @@ Concluido ✔
 ####    -> 009 Entrada de dados em Java - Parte 2
             -> Com Código
 ####    -> 010 Funções matemáticas em Java
-            -> 
+            -> Com Código
 ####    -> 011 AVISO exercícios para iniciantes PARTE 1
             -> 
 ####    -> 012 Exercícios para Iniciantes - PARTE 1
