@@ -511,7 +511,7 @@ Concluido ✔
 ####    -> 007 Processamento de dados em Java, Casting
             -> Com Código
 ####    -> 008 Entrada de dados em Java - Parte 1
-            -> 
+            -> Com Código
 ####    -> 009 Entrada de dados em Java - Parte 2
             -> 
 ####    -> 010 Funções matemáticas em Java
