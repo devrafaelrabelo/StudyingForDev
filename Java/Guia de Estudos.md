@@ -482,9 +482,9 @@ Concluido ✔
 ####    ->  003 Entendendo as versões do Java
             -> Sem Código
 ####    ->  004 Histórico e edições de Java
-            ->
+            -> Sem Código
 ####    ->  005 JDK  JVM - Máquina Virtual do Java
-            ->
+            -> Sem Código
 ####    ->  006 Estrutura de uma aplicação Java
             ->
 ####    ->  007 Instalando o Java JDK - PDF
