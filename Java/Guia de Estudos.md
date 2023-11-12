@@ -517,9 +517,9 @@ Concluido ✔
 ####    -> 010 Funções matemáticas em Java
             -> Com Código
 ####    -> 011 AVISO exercícios para iniciantes PARTE 1
-            -> 
+            -> Sem Código
 ####    -> 012 Exercícios para Iniciantes - PARTE 1
-            -> 
+            -> Sem Código
 
 ### 05 - Estrutura condicional
 ####    -> 001 Visão geral do capítulo
