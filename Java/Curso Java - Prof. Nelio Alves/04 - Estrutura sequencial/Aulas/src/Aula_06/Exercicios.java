@@ -25,7 +25,5 @@ public class Exercicios {
                 "Rouded (three decimal): %.3f\n",product1, price1, product2, price2, age, code, gender,measure, measure);
         Locale.setDefault(Locale.US);
         System.out.printf( "US decimal point: %.3f", measure);
-
-
     }
 }
