@@ -488,7 +488,7 @@ Concluido ✔
 ####    ->  006 Estrutura de uma aplicação Java
             -> Sem Código
 ####    ->  007 Instalando o Java JDK - PDF
-            ->
+            -> Sem Código
 ####    ->  008 Instalando o Eclipse
             ->
 ####    ->  009 Primeiro programa em Java no Eclipse
