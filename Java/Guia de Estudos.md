@@ -507,7 +507,7 @@ Concluido ✔
 ####    -> 005 As três operações básicas de programação
             -> Com Código
 ####    -> 006 Saída de dados em Java
-            -> 
+            -> Com Código
 ####    -> 007 Processamento de dados em Java, Casting
             -> 
 ####    -> 008 Entrada de dados em Java - Parte 1
