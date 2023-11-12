@@ -493,6 +493,7 @@ Concluido ✔
             -> Sem Código
 ####    ->  009 Primeiro programa em Java no Eclipse
             -> Com Código
+Concluido ✔
 
 ### 04 - Estrutura sequencial
 ####    -> 001 Visão geral do capítulo
