@@ -534,17 +534,18 @@ Concluido ✔
 ####    -> 005 Estrutura condicional (if-else)
             -> Com codigo
 ####    -> 006 AVISO exercícios para iniciantes PARTE  2
-            -> 
+            -> Sem Código
 ####    -> 007 Exercícios para Iniciantes - PARTE 2
-            ->
+            -> Com codigo
 ####    -> 008 Sintaxe opcional - operadores de atribuição cumulativa
-            ->
+            -> Sem Código
 ####    -> 009 Sintaxe opcional - switch-case
-            ->
+            -> Sem Código
 ####    -> 010 Expressão condicional ternária
-            ->
+            -> Sem Código
 ####    -> 011 Escopo e inicialização
-            ->
+            -> Sem Código
+Concluido ✔
 
 ### 06 - Estruturas repetitivas
 ####    -> 001 Visão geral do capítulo
