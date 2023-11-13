@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App_1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-//        Certamente! Vou criar uma lista de 15 exercícios para
+//        Certamente! Vou criar uma lista de 10 exercícios para
 //        praticar conceitos básicos de Java. Vamos lá:
 // -----------------------------------------------------------------------------------
 //        1. **Soma e Média:**
@@ -121,10 +121,150 @@ public class App_1 {
         double jNovoValor = jValorProd - (jValorProd * (jValorDesc / 100));
         System.out.printf("O Valor com desconto é: %.2f", jNovoValor);*/
 // -----------------------------------------------------------------------------------
-//        Lembre-se de praticar a escrita de código, testar diferentes casos de
-//        entrada e entender cada passo do algoritmo. Se precisar de mais informações
-//        ou ajuda com algum desses exercícios, fique à vontade para perguntar!
+//        11. **Soma de Dois Números:**
+//        Solicite dois números ao usuário e imprima a soma deles.
+        /*System.out.println("11 - Exercicio\n" +
+                "Soma de Dois Números");
+        System.out.print("Digite o 1º Valor: ");
+        double k1 = entrada.nextDouble();
+        System.out.print("Digite o 2º Valor: ");
+        double k2 = entrada.nextDouble();
+        System.out.printf("A soma dos valores é: %.2f", k2 + k1);*/
+// -----------------------------------------------------------------------------------
+//        12. **Calculadora de Média:**
+//        Solicite três notas ao usuário e calcule a média.
+        /*System.out.println("12 - Exercicio\n" +
+                "Calculadora de Media");
+        System.out.print("Digite o 1º Valor: ");
+        double l1 = entrada.nextDouble();
+        System.out.print("Digite o 2º Valor: ");
+        double l2 = entrada.nextDouble();
+        System.out.print("Digite o 3º Valor: ");
+        double l3 = entrada.nextDouble();
+        System.out.printf("A media é: %.2f", l1 + l2 + l3 / 3);*/
+// -----------------------------------------------------------------------------------
+//        13. **Conversão de Temperatura:**
+//        Solicite uma temperatura em Celsius e converta-a para Fahrenheit.
+//        A fórmula é: `F = (C * 9/5) + 32`.
+        /*System.out.println("13 - Exercicio\n" +
+                "Conversão de Temperatura");
+        System.out.print("Digite a temperatura: ");
+        double m1 = entrada.nextDouble();
+        double mResultado = (m1 * 9/5) + 32;
+        System.out.printf("A temp é: %.2f", mResultado);*/
+// -----------------------------------------------------------------------------------
+//        14. **Área do Retângulo:**
+//        Solicite a base e a altura de um retângulo e calcule a área.
+        /*System.out.println("14 - Exercicio\n" +
+                "Área do Retângulo");
+        System.out.print("Digite o valor de x: ");
+        double n1 = entrada.nextDouble();
+        System.out.print("Digite o valor de y: ");
+        double n2 = entrada.nextDouble();
+        System.out.printf("a Area do retangulo é: %.2f", n1 * n2);*/
+// -----------------------------------------------------------------------------------
+//        15. **Calculadora de IMC (Índice de Massa Corporal):**
+//        Solicite o peso (em kg) e a altura (em metros) de uma pessoa
+//        e calcule o IMC. A fórmula é: `IMC = peso / (altura * altura)`.
+        /*System.out.println("15 - Exercicio\n" +
+                "Calculadora IMC");
+        System.out.print("Digite o peso: ");
+        double o1 = entrada.nextDouble();
+        System.out.print("Digite o altura: ");
+        double o2 = entrada.nextDouble();
+        System.out.printf("O IMC é: %.2f", o1 / (o2 * o2));*/
+// -----------------------------------------------------------------------------------
+//        16. **Conversão de Segundos:**
+//        Solicite um número de segundos e converta-o para horas, minutos e
+//        segundos.
+        /*System.out.println("16 - Exercicio\n" +
+                "Conversão de Segundos");
+        System.out.printf("Digite os segundos: ");
+        int pSegundos = entrada.nextInt();
+        int pHoras = (int) pSegundos / 3600;
+        int pMinutos = (int) (pSegundos % 3600) / 60;
+        pSegundos = pSegundos % 60;
+        System.out.printf("A quantidade em horas: %02d:%02d:%02d",
+                pHoras, pMinutos, pSegundos);*/
+// -----------------------------------------------------------------------------------
+//        17. **Calculadora de Juros Simples:**
+//        Solicite o capital, a taxa de juros e o tempo (em anos) e
+//        calcule o montante  usando a fórmula de juros simples: `
+//        Montante = Capital * (1 + Taxa * Tempo)`.
+        /*System.out.println("17 - Exercicio\n" +
+                "Calculadora de Juros Simples");
+        System.out.print("Digite o Capital: ");
+        double qCapital = entrada.nextDouble();
+        System.out.print("FORMATO (1,5 - 20,5 ...)\n"
+                + "Digite o porcetagem de juros: ");
+        double qTaxaJuros = entrada.nextDouble();
+        System.out.print("Digite o valor em anos: ");
+        double qAnos = entrada.nextDouble();
+        double qResultado = qCapital + (qCapital * ((qTaxaJuros/100) * qAnos));
+        System.out.printf("O valor é: %.2f", qResultado);*/
+// -----------------------------------------------------------------------------------
+//        18. **Troca de Valores:**
+//        Solicite dois valores ao usuário e troque seus valores
+//        sem usar uma variável temporária.
+        /*System.out.println("18 - Exercicio\n" +
+                "Troca de Valores");
+        System.out.print("Digite o 1º valor: ");
+        double rValor_1 = entrada.nextDouble();
+        System.out.print("Digite o 2º valor: ");
+        double rValor_2 = entrada.nextDouble();
 
+        rValor_1 = rValor_1 + rValor_2;
+        rValor_2 = rValor_1 - rValor_2;
+        rValor_1 = rValor_1 - rValor_2;
+        System.out.printf("1º Valor: %.2f\n" +
+                "2º Valor: %.2f", rValor_1, rValor_2);*/
+// -----------------------------------------------------------------------------------
+//        19. **Calculadora de Desconto:**
+//        Solicite o preço original de um produto e a porcentagem de desconto.
+//        Calcule o preço com desconto.
+        /*System.out.println("19 - Exercicio\n" +
+                "Calculadora de Desconto");
+        System.out.print("Digite o preço: ");
+        double sPreco = entrada.nextDouble();
+        System.out.print("FORMATO (1,5 - 20,5 ...)\n"
+                + "Digite o porcetagem de juros: ");
+        double rTaxaJuros = entrada.nextDouble();
+        double rResultado = sPreco * ((rTaxaJuros/100));
+        System.out.printf("O valor é: %.2f", rResultado);*/
+// -----------------------------------------------------------------------------------
+//        20. **Número Inteiro e Sua Décima Parte:**
+//        Solicite um número inteiro e imprima esse número e a décima parte dele.
+        /*System.out.println("20 - Exercicio\n" +
+                "Número Inteiro e Sua Décima Parte");
+        System.out.print("Digite o valor: ");
+        double tValor = entrada.nextDouble();
+        double tResultado = tValor / 10;
+        System.out.printf("A decima parte é: %.2f", tResultado);*/
+// -----------------------------------------------------------------------------------
+//        21. **Conversão de Polegadas para Centímetros:**
+//        Solicite um valor em polegadas e converta-o para centímetros.
+//        Considere que 1 polegada é igual a 2,54 centímetros.
+        /*System.out.println("21 - Exercicio\n" +
+                "Polegadas para Centimetros");
+        System.out.print("Digite o valor: ");
+        double uValor = entrada.nextDouble();
+        double uResultado = uValor * 2.54;
+        System.out.printf("O valor é: %2f", uResultado);*/
+// -----------------------------------------------------------------------------------
+//        22. **Classificação de Idade:**
+//        Solicite a idade de uma pessoa e classifique-a em "Criança" (0-12 anos),
+//        "Adolescente" (13-17 anos), "Adulto" (18-59 anos) ou "Idoso"
+//        (60 anos ou mais).
+        /*System.out.println("22 - Exercicio\n" +
+                "Classificação de Idade");
+        System.out.print("Digite a IDADE: ");
+        int vIdade = entrada.nextInt();
+        String vClass = vClass = vIdade >= 60 ? "Idoso" : "IDADE INCORRETA";
+        vClass = vIdade >= 18 && vIdade <= 59  ? "Adulto" : vClass;
+        vClass = vIdade >= 13 && vIdade <= 17  ? "Adolescente" : vClass;
+        vClass = vIdade >= 0 && vIdade <= 12 ? "Criança" : vClass;
+        System.out.printf("Classificação: %s", vClass);*/
+// -----------------------------------------------------------------------------------
         entrada.close();
     }
 }
