@@ -135,79 +135,103 @@ public class App_1 {
 // ---------------------------------------------------------------------
 //        9. **Verificar se um caractere é vogal ou consoante:**
 //        - Peça ao usuário um caractere e informe se é vogal ou consoante.
-        System.out.println(" - Exercicio\n" +
-                "");
+        /*System.out.println("9 - Exercicio\n" +
+                "Verificar se um caractere é vogal ou consoante");
+        System.out.print("Digite o Caractere: ");
+        char iLetraAntes = entrada.next().charAt(0);
+        String iLetra =  String.valueOf(iLetraAntes);
+        if (iLetra.equalsIgnoreCase("a") || iLetra.equalsIgnoreCase("e")
+                || iLetra.equalsIgnoreCase("i") || iLetra.equalsIgnoreCase("o")
+                || iLetra.equalsIgnoreCase("u")) {
+            System.out.println("VOGAL");
+        } else {
+            System.out.println("CONSOANTE");
+        }*/
 // ---------------------------------------------------------------------
 //        10. **Calculadora simples:**
 //        - Crie uma calculadora que realiza operações básicas (adição,
-//                subtração, multiplicação, divisão) com dois números.
-        System.out.println(" - Exercicio\n" +
-                "");
+//        subtração, multiplicação, divisão) com dois números.
+        /*System.out.println(" - Exercicio\n" +
+                "Calculadora simples");
+        System.out.print("1º Numero");
+        double jN1 = entrada.nextDouble();
+        System.out.print("2º Numero");
+        double jN2 = entrada.nextDouble();
+        System.out.print("Digite o tipo de OPERAÇÃO\n" +
+                "1 - SOMA\n" +
+                "2 - SUBTRAÇÃO\n" +
+                "3 - MULTIPLiCAÇÃO\n" +
+                "4 - DIVISÃO\n" +
+                ":");
+        String jConta = entrada.next();
+        if (jConta.equalsIgnoreCase("1")) {
+            System.out.printf("SOMA\nResultado: %.2f", jN1 + jN2);
+        } else if (jConta.equalsIgnoreCase("2")) {
+            System.out.printf("SUBTRAÇÃO\nResultado: %.2f", jN1 - jN2);
+        } else if (jConta.equalsIgnoreCase("3")) {
+            System.out.printf("MULTIPLiCAÇÃO\nResultado: %.2f", jN1 * jN2);
+        } else if (jConta.equalsIgnoreCase("4")) {
+            System.out.printf("DIVISÃO\nResultado: %.2f", jN1 / jN2);
+        }else {
+            System.out.println("Operado Invalido");
+        }*/
 // ---------------------------------------------------------------------
 //        11. **Conversor de temperatura:**
 //        - Faça um programa que converta uma temperatura de Celsius para
 //        Fahrenheit ou vice-versa, dependendo da escolha do usuário.
-        System.out.println(" - Exercicio\n" +
-                "");
+        /*System.out.println("11 - Exercicio\n" +
+                "Conversor de Temperatura");
+        System.out.print("Digite\n" +
+                "1 - F -> C\n" +
+                "2 - C -> F\n" +
+                ":");
+        int kEscolha = entrada.nextInt();
+        System.out.print("Digite a temperatura: ");
+        double kTemp = entrada.nextDouble();
+        if (kEscolha == 1) {
+            System.out.printf("%.2f ºF", (kTemp - 32) / 1.8);
+        } else if (kEscolha == 2) {
+            System.out.printf("%.2f ºC", (kTemp * 1.8) + 32);
+        } else {
+            System.out.println("Valor Incorreto");
+        }*/
 // ---------------------------------------------------------------------
 //        12. **Verificar se um número é primo:**
 //        - Pergunte ao usuário um número e informe se é primo ou não.
-        System.out.println(" - Exercicio\n" +
-                "");
+        /*System.out.println(" - Exercicio\n" +
+                "Verificar se um número é primo");
+        System.out.print("Digite o numero: ");
+        int lNum = entrada.nextInt();
+        if (lNum <= 1) {
+            System.out.println(lNum + " não é um número primo.");
+        } else {
+            boolean ehPrimo = true;
+
+            for (int i = 2; i <= Math.sqrt(lNum); i++) {
+                if (lNum % i == 0) {
+                    ehPrimo = false;
+                    break;
+                }
+            }
+            if (ehPrimo) {
+                System.out.println(lNum + " é um número primo.");
+            } else {
+                System.out.println(lNum + " não é um número primo.");
+            }
+        }*/
 // ---------------------------------------------------------------------
 //        13. **Calcular o fatorial de um número:**
 //        - Peça um número e calcule o seu fatorial.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        14. **Ordenar três números em ordem crescente:**
-//        - Receba três números e mostre-os em ordem crescente.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        15. **Verificar se um número é perfeito:**
-//        - Solicite um número e diga se é um número perfeito ou não.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        16. **Jogo de adivinhação:**
-//        - Crie um jogo em que o programa gera um número aleatório e o
-//        usuário tenta adivinhar.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        17. **Validar uma senha:**
-//        - Peça ao usuário que crie uma senha e a valide de acordo com
-//        critérios (por exemplo, comprimento mínimo, presença de números
-//        e letras).
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        18. **Calculadora de IMC:**
-//        - Crie uma calculadora de Índice de Massa Corporal (IMC) que
-//        recebe o peso e a altura e fornece o IMC e uma mensagem
-//        correspondente.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        19. **Verificar se um número é Armstrong:**
-//        - Pergunte ao usuário um número e diga se é um número de
-//        Armstrong ou não.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        20. **Calcular o custo de um produto com desconto:**
-//        - Solicite o preço original de um produto e calcule o preço final
-//        com base em um desconto fornecido pelo usuário.
-        System.out.println(" - Exercicio\n" +
-                "");
-// ---------------------------------------------------------------------
-//        Espero que esses exercícios ajudem no seu aprendizado de Java!
-//        Se tiver dúvidas sobre algum exercício específico ou precisar
-//        de mais orientações, sinta-se à vontade para perguntar.
-        System.out.println(" - Exercicio\n" +
-                "");
-//
+        /*System.out.println("13 - Exercicio\n" +
+                "Calcular o fatorial de um número");
+        System.out.print("Digite o Valor: ");
+        int mValor = entrada.nextInt();
+        int mValorFinal = mValor;
+        for (int i = (mValor - 1); i > 0 ;i--) {
+            mValorFinal = mValorFinal * (i);
+        }
+        System.out.printf("O Valor Final é: %d\n", mValorFinal);*/
+
     entrada.close();
     }
 }

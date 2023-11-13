@@ -520,20 +520,21 @@ Concluido ✔
             -> Sem Código
 ####    -> 012 Exercícios para Iniciantes - PARTE 1
             -> Sem Código
+Concluido ✔
 
 ### 05 - Estrutura condicional
 ####    -> 001 Visão geral do capítulo
-            ->
+            -> Sem Código
 ####    -> 002 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    -> 003 Expressões comparativas
-            ->
+            -> Sem Código
 ####    -> 004 Expressões lógicas
-            ->
+            -> Sem Código
 ####    -> 005 Estrutura condicional (if-else)
-            ->
+            -> Com codigo
 ####    -> 006 AVISO exercícios para iniciantes PARTE  2
-            ->
+            -> 
 ####    -> 007 Exercícios para Iniciantes - PARTE 2
             ->
 ####    -> 008 Sintaxe opcional - operadores de atribuição cumulativa
