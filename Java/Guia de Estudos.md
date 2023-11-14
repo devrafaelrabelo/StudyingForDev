@@ -580,17 +580,18 @@ Concluido ✔
 
 ### 07 - Outros tópicos básicos sobre Java
 ####    -> 001 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    -> 002 Restrições e convenções para nomes
-            ->
+            -> Sem Código
 ####    -> 003 Operadores bitwise
-            ->
+            -> Sem Código
 ####    -> 004 Funções interessantes para String
-            ->
+            -> Sem Código
 ####    -> 005 Comentários em Java (básico)
-            ->
+            -> Sem Código
 ####    -> 006 Funções (sintaxe)
-            ->
+            -> Sem Código
+Concluido ✔
 
 ### 08 - Introdução à Programação Orientada a Objetos
 ####    -> 001 Visão geral do capítulo
