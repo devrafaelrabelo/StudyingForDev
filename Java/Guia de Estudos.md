@@ -549,34 +549,34 @@ Concluido ✔
 
 ### 06 - Estruturas repetitivas
 ####    -> 001 Visão geral do capítulo
-            ->
+            -> Sem Código
 ####    -> 002 Material de apoio do capítulo - PDF
-            ->
+            -> Sem Código
 ####    -> 003 Como utilizar o DEBUG no Eclipse (execução passo a passo)
-            ->
+            -> Sem Código
 ####    -> 004 Estrutura repetitiva enquanto (while)
-            ->
+            -> Sem Código
 ####    -> 005 Teste de mesa com estrutura repetitiva enquanto
-            ->
+            -> Sem Código
 ####    -> 006 Exercícios de teste de mesa com while
-            ->
+            -> Sem Código
 ####    -> 007 AVISO exercícios para iniciantes PARTE  3
-            ->
+            -> Sem Código
 ####    -> 008 Exercícios para Iniciantes - PARTE 3
-            ->
+            -> Sem Código
 ####    -> 009 Estrutura repetitiva para (for)
-            ->
+            -> Sem Código
 ####    -> 010 Teste de mesa com estrutura repetitiva para
-            ->
+            -> Sem Código
 ####    -> 011 Exercícios de testes de mesa com for
-            ->
+            -> Sem Código
 ####    -> 012 AVISO exercícios para iniciantes PARTE 4
-            ->
+            -> Sem Código
 ####    -> 013 Exercícios para iniciantes PARTE 4
-            ->
+            -> Sem Código
 ####    -> 014 Estrutura repetitiva faça-enquanto (do-while)
-            ->
-
+            -> Sem Código
+Concluido ✔
 
 ### 07 - Outros tópicos básicos sobre Java
 ####    -> 001 Material de apoio do capítulo - PDF

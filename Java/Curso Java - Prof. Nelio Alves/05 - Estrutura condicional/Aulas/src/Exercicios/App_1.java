@@ -60,7 +60,7 @@ public class App_1 {
 //        5. **Verificar se um ano é bissexto:**
 //        - Pergunte ao usuário um ano e diga se é bissexto ou não.
         /*System.out.println(" - Exercicio\n" +
-                "Verificar se é um ano Bissxto");
+                "Verificar se é um ano Bissexto");
         System.out.print("Digite o ano: ");
         int eAno = entrada.nextInt();
         if (eAno % 4 == 0) {
