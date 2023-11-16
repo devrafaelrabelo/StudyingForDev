@@ -595,29 +595,30 @@ Concluido ✔
 
 ### 08 - Introdução à Programação Orientada a Objetos
 ####    -> 001 Visão geral do capítulo
-            -> 
+            -> Sem Código
 ####    -> 002 Material de apoio do capítulo
-            ->
+            -> Sem Código
 ####    -> 003 Resolvendo um problema sem orientação a objetos
-            ->
+            -> Sem Código
 ####    -> 004 Criando uma classe com três atributos para representar melhor o triângulo
-            ->
+            -> Sem Código
 ####    -> 005 Criando um método para obtermos os benefícios de reaproveitamento e delegação
-            ->
+            -> Sem Código
 ####    -> 006 Começando a resolver um segundo problema exemplo
-            ->
+            -> Sem Código
 ####    -> 007 Object e toString
-            ->
+            -> Sem Código
 ####    -> 008 Finalizando o programa
-            ->
+            -> Sem Código
 ####    -> 009 Exercícios de fixação
-            ->
+            -> Sem Código
 ####    -> 010 Membros estáticos - Parte 1
-            ->
+            -> Sem Código
 ####    -> 011 Membros estáticos - Parte 2
-            ->
+            -> Sem Código
 ####    -> 012 Exercício de fixação
-            ->
+            -> Sem Código
+Concluido ✔
 
 ### 09 - Construtores, palavra this, sobrecarga, encapsulamento
 ####    -> 001 Visão geral do capítulo
