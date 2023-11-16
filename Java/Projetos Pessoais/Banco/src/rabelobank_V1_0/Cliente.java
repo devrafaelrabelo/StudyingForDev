@@ -38,9 +38,17 @@ public class Cliente {
 		if (banco.clientes.contains(cliente) || banco.contas.contains(conta)) {
 			return false;
 		}
-		contas.add(conta);
+		adicionandoConta(banco, conta);
 		conta.clientes.add(cliente);
 		banco.clientes.add(cliente);
+		return true;
+	}
+
+	public boolean adicionandoConta(Banco banco, Conta conta) {
+		if (banco.contas.contains(conta)) {
+			return false;
+		}
+		contas.add(conta);
 		banco.contas.add(conta);
 		return true;
 	}

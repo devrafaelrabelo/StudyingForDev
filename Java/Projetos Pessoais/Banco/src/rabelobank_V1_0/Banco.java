@@ -79,7 +79,8 @@ public class Banco {
 
 	public Cliente retornaClienteObj(Long CPF) {
 		for (Cliente cliente : clientes) {
-			if (cliente.getCPF() == CPF) {
+			if (Long.valueOf(cliente.getCPF())
+					.equals(CPF)) {
 				return cliente;
 			}
 		}
