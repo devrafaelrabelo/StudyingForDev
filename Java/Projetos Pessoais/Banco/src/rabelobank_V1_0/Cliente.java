@@ -10,7 +10,7 @@ public class Cliente {
 	private Long CPF;
 	private String nascimento;
 	List<Conta> contas = new ArrayList<>();
-	Banco banco;
+	private Banco banco;
 	
 //	Construtores 
 //	------------------------------------------------

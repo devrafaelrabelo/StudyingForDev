@@ -4,15 +4,17 @@ public class CompTransferenciaRecebida {
 
 	Conta conta;
 	double valor;
+	String dataAtualFormatada;
 
-	public CompTransferenciaRecebida(Conta origem, double valor) {
+	public CompTransferenciaRecebida(Conta origem, double valor, String dataAtualFormatada) {
 		this.conta = origem;
 		this.valor = valor;
+		this.dataAtualFormatada = dataAtualFormatada;
 	}
 
 	@Override
 	public String toString() {
-		return "Origem = " + conta.getCodigo() + " | R$ +" + valor + "\n";
+		return dataAtualFormatada + " | " +"Origem = " + conta.getCodigo() + " | R$ +" + valor + "\n";
 	}
 
 	public Conta getDestino() {

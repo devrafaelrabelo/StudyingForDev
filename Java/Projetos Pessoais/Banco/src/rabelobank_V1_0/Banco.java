@@ -6,8 +6,8 @@ import java.util.List;
 public class Banco {
 
 	final private String nome = "RabeloBank";
-	List<Conta> contas = new ArrayList<Conta>();
-	List<Cliente> clientes = new ArrayList<Cliente>();
+	List<Conta> contas = new ArrayList<>();
+	List<Cliente> clientes = new ArrayList<>();
 
 //	Funçoes para buscar e imprimir as contas do Banco -----------------
 //	-------------------------------------------------
@@ -79,7 +79,7 @@ public class Banco {
 
 	public Cliente retornaClienteObj(Long CPF) {
 		for (Cliente cliente : clientes) {
-			if (Long.valueOf(cliente.getCPF())
+			if (cliente.getCPF()
 					.equals(CPF)) {
 				return cliente;
 			}

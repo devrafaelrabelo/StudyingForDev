@@ -2,19 +2,21 @@ package rabelobank_V1_0;
 
 public class CompTransferenciaEfetuada {
 
-	Conta conta;
-	double valor;
+	private final Conta conta;
+	private final double valor;
+	private final String dataAtualFormatada;
 
-	public CompTransferenciaEfetuada(Conta destino, double valor) {
+	public CompTransferenciaEfetuada(Conta destino, double valor, String dataAtualFormatada) {
 		this.conta = destino;
 		this.valor = valor;
+		this.dataAtualFormatada = dataAtualFormatada;
 	}
 	
 	@Override
 	public String toString() {		
-		return "Destino = " + conta.getCodigo() + " | R$ -" + valor + "\n";
+		return dataAtualFormatada + " | " + "Destino = " + conta.getCodigo() + " | R$ -" + valor + "\n";
 	}
-
+	/*
 	public Conta getDestino() {
 		return conta;
 	}
@@ -30,5 +32,5 @@ public class CompTransferenciaEfetuada {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
-
+	*/
 }

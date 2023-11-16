@@ -1,5 +1,6 @@
 package rabelobank_V1_0;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -10,61 +11,64 @@ public abstract class Conta {
 	private int digito;
 	double saldo = 0;
 	Banco banco;
-	List<Cliente> clientes = new ArrayList<Cliente>();
-	List<CompTransferenciaEfetuada> CompTransferenciaEfetuada = new ArrayList<CompTransferenciaEfetuada>();
-	List<CompTransferenciaRecebida> CompTransferenciaRecebida = new ArrayList<CompTransferenciaRecebida>();	
-	List<CompDeposito> extratoDeposito = new ArrayList<CompDeposito>();
-	List<CompSaque> extratoSaque = new ArrayList<CompSaque>();
-	List<Comp> extratoCompleto = new ArrayList<Comp>();
+	List<Cliente> clientes = new ArrayList<>();
+	List<CompTransferenciaEfetuada> CompTransferenciaEfetuada = new ArrayList<>();
+	List<CompTransferenciaRecebida> CompTransferenciaRecebida = new ArrayList<>();
+	List<CompDeposito> extratoDeposito = new ArrayList<>();
+	List<CompSaque> extratoSaque = new ArrayList<>();
+	List<Comp> extratoCompleto = new ArrayList<>();
 
 	public Conta(int IDCONTA, int digito, Banco banco) {
 		this.IDCONTA = IDCONTA;
-		this.digito = digito;		
+		this.digito = digito;
+		this.banco = banco;
 	}	
 	
 	public void imprimirExtratoCompleto() {
 		System.out.println("Cliente " + this.clientes.get(0).getNome()
 				+ "\nExtrato Completo");
-		if( extratoCompleto.size() != 0) {
+		if(!extratoCompleto.isEmpty()) {
 			System.out.println(extratoCompleto);
 		} else {
 			System.out.println("Não existe historico");
 		}
 	}
 
-	boolean depositoBancario(double deposito) {
-		if (deposito != 0) {
-			this.saldo += deposito;
-			this.extratoDeposito.add(new CompDeposito(deposito));
-			this.extratoCompleto.add(new Comp("R$ +" + deposito + "\n"));
+	boolean depositoBancario(double valor) {
+		if (valor != 0) {
+			String data = dataEHora();
+			this.saldo += valor;
+			this.extratoDeposito.add(new CompDeposito(valor, dataEHora()));
+			this.extratoCompleto.add(new Comp(valor,data, 1));
 			return true;
 		}
 		return false;	
 		
 	}
 
-	boolean saqueBancario(double deposito) {
-		if (deposito > 0 && (this.saldo - deposito) >= 0) {
-			this.saldo -= deposito;
-			this.extratoSaque.add(new CompSaque(deposito));
-			this.extratoCompleto.add(new Comp("R$ -" + deposito + "\n"));
+	boolean saqueBancario(double valor) {
+		if (valor > 0 && (this.saldo - valor) >= 0) {
+			String data = dataEHora();
+			this.saldo -= valor;
+			this.extratoSaque.add(new CompSaque(valor, data));
+			this.extratoCompleto.add(new Comp(valor,data , 2));
 			return true;
 		}		
 		return false;	
 	}
 
-	boolean transferBancario(double deposito, Conta conta) {
+	boolean transferBancario(double valor, Conta conta) {
+		String data = dataEHora();
 		if (conta != null) {
-			if (deposito > 0 && (this.saldo - deposito) >= 0) {
-				this.saldo -= deposito;
-				conta.saldo += deposito;
-				conta.extratoDeposito.add(new CompDeposito(deposito));
-				this.CompTransferenciaEfetuada.add(new CompTransferenciaEfetuada(conta, deposito));
+			if (valor > 0 && (this.saldo - valor) >= 0) {
+				this.saldo -= valor;
+				conta.saldo += valor;
+				this.CompTransferenciaEfetuada.add(new CompTransferenciaEfetuada(conta, valor, data));
 				this.extratoCompleto
-						.add(new Comp("Destino = " + conta.getCodigo() + " | R$ +" + deposito + "\n"));
-				conta.CompTransferenciaRecebida.add(new CompTransferenciaRecebida(this, deposito));
+						.add(new Comp(valor, data, 4));
+				conta.CompTransferenciaRecebida.add(new CompTransferenciaRecebida(this, valor, data));
 				conta.extratoCompleto
-						.add(new Comp("Origem = " + this.getCodigo() + " | R$ +" + deposito + "\n"));
+						.add(new Comp(valor, data, 3));
 				return true;
 			}
 		} else {
@@ -75,7 +79,7 @@ public abstract class Conta {
 	
 	public void imprimirCompTransferenciaEfetuada() {
 		System.out.println("Extrato Transferencia Efetuada");
-		if( CompTransferenciaEfetuada.size() != 0) {
+		if(!CompTransferenciaEfetuada.isEmpty()) {
 			System.out.println(CompTransferenciaEfetuada);
 		} else {
 			System.out.println("Não existe historico");
@@ -84,7 +88,7 @@ public abstract class Conta {
 	
 	public void imprimirCompTransferenciaRecebida() {
 		System.out.println("Extrato Transferencia Recebida");
-		if( CompTransferenciaRecebida.size() != 0) {
+		if(!CompTransferenciaRecebida.isEmpty()) {
 			System.out.println(CompTransferenciaRecebida);
 		} else {
 			System.out.println("Não existe historico");
@@ -93,7 +97,7 @@ public abstract class Conta {
 	
 	public void imprimirCompDeposito() {
 		System.out.println("Extrato Deposito");
-		if( extratoDeposito.size() != 0) {
+		if(!extratoDeposito.isEmpty()) {
 			System.out.println(extratoDeposito);
 		} else {
 			System.out.println("Não existe historico");
@@ -102,7 +106,7 @@ public abstract class Conta {
 	
 	public void imprimirCompSaque() {
 		System.out.println("Extrato Saque");
-		if( extratoSaque.size() != 0) {
+		if(!extratoSaque.isEmpty()) {
 			System.out.println(extratoSaque);
 		} else {
 			System.out.println("Não existe historico");
@@ -165,6 +169,11 @@ public abstract class Conta {
 
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
+	}
+
+	public String dataEHora() {
+		return new SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
+				.format(System.currentTimeMillis());
 	}
 
 }
