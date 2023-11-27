@@ -63,8 +63,10 @@ public class TabuleiroConsole {
 				}
 			}
 			
+			System.out.println(tabuleiro);
 			System.out.println("Voce Ganhou");
-		} catch (ExplosaoException e) {			
+		} catch (ExplosaoException e) {		
+			System.out.println(tabuleiro);
 			System.out.println("Voce Perdeu");
 		}
 		

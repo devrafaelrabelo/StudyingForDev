@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+import br.com.rabelo.cm.excecao.ExplosaoException;
+
 public class Tabuleiro {
 	
 	private int linhas;
@@ -23,10 +25,15 @@ public class Tabuleiro {
 	}
 	
 	public void abrir(int linha, int coluna) {
-		campos.parallelStream()
+		try {
+			campos.parallelStream()
 			.filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
 			.findFirst()
 			.ifPresent(c -> c.abrir());
+		} catch (ExplosaoException e) {
+			campos.forEach(c -> c.setAberto(true));
+			throw e;
+		}
 	}
 	
 	public void alterarMarcacao(int linha, int coluna) {
@@ -56,12 +63,10 @@ public class Tabuleiro {
 		long minasArmadas = 0;
 		Predicate<Campo> minado = c -> c.isMinado();
 		
-		do {
-			
-			minasArmadas = campos.stream().filter(minado).count();
+		do {						
 			int aleatorio = (int) (Math.random() * campos.size());
 			campos.get(aleatorio).minar();
-			
+			minasArmadas = campos.stream().filter(minado).count();
 		} while (minasArmadas < minas);
 	}
 	
@@ -76,12 +81,22 @@ public class Tabuleiro {
 	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+		sb.append("x");
+		sb.append(" y");
+		for (int c = 0; c < colunas; c++) {
+			sb.append("  ");
+			sb.append(c);
+			sb.append(" ");
+		}
 		
-		int i = 0;
+		sb.append("\n");
 		
+		int i = 0;		
 		for (int l = 0; l < linhas; l++) {
+			sb.append(l);
+			sb.append("  ");
 			for (int c = 0; c < colunas; c++) {
-				sb.append(" ");
+				sb.append("  ");
 				sb.append(campos.get(i));
 				sb.append(" ");
 				i++;
