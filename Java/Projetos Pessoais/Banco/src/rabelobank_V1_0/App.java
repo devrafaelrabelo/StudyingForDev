@@ -61,22 +61,24 @@ public class App {
 		banco.retornaContasObj("10001-1").saqueBancario(8000);
 		banco.retornaContasObj("10001-1").saqueBancario(8000);
 
+		banco.retornaContasObj("10001-2").depositoBancario(50000);
+		banco.retornaContasObj("10001-2").depositoBancario(50000);
+		banco.retornaContasObj("10001-2").depositoBancario(50000);
+		banco.retornaContasObj("10001-2").depositoBancario(50000);
+
 		banco.retornaContasObj("10001-1").transferBancario(50000,
 				banco.retornaContasObj("10001-1"));
 
 
-		banco.retornaContasObj("10001-1").imprimirCompDeposito();
-		banco.retornaContasObj("10001-1").imprimirCompSaque();
-
-		banco.retornaContasObj("10001-1").imprimirCompTransferenciaEfetuada();
-
-		banco.retornaContasObj("10001-1").imprimirCompTransferenciaRecebida();
-
-
-
-
-		banco.retornaContasObj("10001-1").imprimirExtratoCompleto();
-
+//		banco.retornaContasObj("10001-1").imprimirCompDeposito();
+//
+//		banco.retornaContasObj("10001-1").imprimirCompSaque();
+//
+//		banco.retornaContasObj("10001-1").imprimirCompTransferenciaEfetuada();
+//
+//		banco.retornaContasObj("10001-1").imprimirCompTransferenciaRecebida();
+//
+//		banco.retornaContasObj("10001-1").imprimirExtratoCompleto();
 
 
 /*		banco.retornaContasObj("10001-1").imprimirCompDeposito();

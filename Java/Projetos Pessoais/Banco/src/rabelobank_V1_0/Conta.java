@@ -36,9 +36,9 @@ public abstract class Conta {
 
 	boolean depositoBancario(double valor) {
 		if (valor != 0) {
-			String data = dataEHora();
+			String data = dataEHora;
 			this.saldo += valor;
-			this.extratoDeposito.add(new CompDeposito(valor, dataEHora()));
+			this.extratoDeposito.add(new CompDeposito(valor, data));
 			this.extratoCompleto.add(new Comp(valor,data, 1));
 			return true;
 		}
@@ -48,7 +48,7 @@ public abstract class Conta {
 
 	boolean saqueBancario(double valor) {
 		if (valor > 0 && (this.saldo - valor) >= 0) {
-			String data = dataEHora();
+			String data = dataEHora;
 			this.saldo -= valor;
 			this.extratoSaque.add(new CompSaque(valor, data));
 			this.extratoCompleto.add(new Comp(valor,data , 2));
@@ -58,7 +58,7 @@ public abstract class Conta {
 	}
 
 	boolean transferBancario(double valor, Conta conta) {
-		String data = dataEHora();
+		String data = dataEHora;
 		if (conta != null) {
 			if (valor > 0 && (this.saldo - valor) >= 0) {
 				this.saldo -= valor;
@@ -155,10 +155,6 @@ public abstract class Conta {
 		return digito;
 	}
 
-	public void setDigito(int digito) {
-		this.digito = digito;
-	}
-
 	public int getNumero() {
 		return IDCONTA;
 	}
@@ -167,13 +163,9 @@ public abstract class Conta {
 		return saldo;
 	}
 
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
-
-	public String dataEHora() {
-		return new SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
-				.format(System.currentTimeMillis());
-	}
-
+//	public String dataEHora() {
+//		return new SimpleDateFormat("dd/MM/yyyy HH:mm:ss")
+//				.format(System.currentTimeMillis());
+//	}
+	String dataEHora = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(System.currentTimeMillis());
 }

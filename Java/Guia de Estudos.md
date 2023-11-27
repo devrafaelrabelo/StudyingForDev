@@ -446,6 +446,45 @@
                 -> Sem Código
                 Conclusão Módulo
 
+### 11. Projeto - Campo Minado (+JUnit 5)
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Criar Projeto
+                -> Com Código
+####    ->  3. Configurar JUnit
+                -> Com Código
+####    ->  4. Entendendo o Jogo Campo Minado
+                -> Com Código
+####    ->  5. Classe Campo Atributos
+                -> Com Código
+####    ->  6. Classe Campo Adicionar Vizinhos #01
+                -> 
+####    ->  7. Classe Campo Adicionar Vizinhos #02
+                -> 
+####    ->  8. Classe Campo Abrir #01
+                -> 
+####    ->  9. Classe Campo Abrir #02
+                -> 
+####    ->  10. Classe Campo Outros Métodos
+                -> 
+####    ->  11. Classe Tabuleiro #01
+                -> 
+####    ->  12. Classe Tabuleiro #02
+                -> 
+####    ->  13. Classe Tabuleiro #03
+                -> 
+####    ->  14. Classe Tabuleiro Console
+                -> 
+####    ->  15. Exibir Todos os Campos
+                -> 
+####    ->  16. Correção na Distribuição das Minas
+                -> 
+####    ->  17. Melhorando o Método toString
+                -> 
+####    ->  18. Conclusão do Módulo
+                -> 
+                 Conclusão Módulo
+
 ============================================================================================
 ## #########################################################################################
 ============================================================================================
