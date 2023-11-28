@@ -76,9 +76,7 @@ public class Campo {
 	
 	public boolean isMarcado() {
 		return marcado;
-	}
-	
-	
+	}	
 	
 	public void setAberto(boolean aberto) {
 		this.aberto = aberto;
@@ -118,8 +116,7 @@ public class Campo {
 		aberto = false;
 		minado = false;
 		marcado = false;				
-	}
-	
+	}	
 	
 	public String toString() {
 		if (marcado) {
