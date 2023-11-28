@@ -485,6 +485,26 @@
                 -> Com Código
                  Conclusão Módulo
 
+### 12. Generics
+####    ->  1. Introdução do Módulo
+                -> Sem Código
+####    ->  2. Exemplo Básico SEM Generics
+                -> 
+####    ->  3. Exemplo Básico COM Generics
+                -> 
+####    ->  4. Generics e Herança #01
+                -> 
+####    ->  5. Generics e Herança #02
+                -> 
+####    ->  6. Usando Generics em Métodos
+                -> 
+####    ->  7. Criando uma Estrutura ChaveValor com Generics
+                -> 
+####    ->  8. Comparable
+                -> 
+####    ->  9. Conclusão do Módulo
+                -> 
+                Conclusão Módulo
 ============================================================================================
 ## #########################################################################################
 ============================================================================================
