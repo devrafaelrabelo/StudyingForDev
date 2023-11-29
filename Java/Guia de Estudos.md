@@ -505,6 +505,66 @@
 ####    ->  9. Conclusão do Módulo
                 -> Sem Código
                 Conclusão Módulo
+
+### 13. Java Desktop com Swing
+####    ->  1. Introdução do Módulo
+                -> 
+####    ->  2. Padrão Observer (Vídeo do Canal)
+                -> 
+####    ->  3. Padrão Observer #01
+                -> 
+####    ->  4. Padrão Observer #02
+                -> 
+####    ->  5. Padrão Observer no Swing
+                -> 
+####    ->  6. Campo Minado com Observer #01
+                -> 
+####    ->  7. Campo Minado com Observer #02
+                -> 
+####    ->  8. Campo Minado com Observer #03
+                -> 
+####    ->  9. Interface Gráfica do Campo Minado #01
+                -> 
+####    ->  10. Interface Gráfica do Campo Minado #02
+                -> 
+####    ->  11. Interface Gráfica do Campo Minado #02
+                -> 
+####    ->  12. Interface Gráfica do Campo Minado #03
+                -> 
+####    ->  13. Interface Gráfica do Campo Minado #04
+                -> 
+####    ->  14. Interface Gráfica do Campo Minado #06
+                -> 
+####    ->  15. Tela Principal da Calculadora
+                -> 
+####    ->  16. Criando os Componentes Display e Teclado
+                -> 
+####    ->  17. Componente Display
+                -> 
+####    ->  18. Componente Botao
+                -> 
+####    ->  19. Componente Teclado #01
+                -> 
+####    ->  20. Componente Teclado #02
+                -> 
+####    ->  21. Lógica da Calculadora #01
+                -> 
+####    ->  22. Lógica da Calculadora #02
+                -> 
+####    ->  23. Lógica da Calculadora #03
+                -> 
+####    ->  24. Lógica da Calculadora #04
+                -> 
+####    ->  25. Lógica da Calculadora #05
+                -> 
+####    ->  26. Lógica da Calculadora #06
+                -> 
+####    ->  27. Conclusão do Módulo
+                -> 
+            Conclusão Módulo
+ 
+
+
 ============================================================================================
 ## #########################################################################################
 ============================================================================================
