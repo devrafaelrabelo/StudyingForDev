@@ -508,11 +508,11 @@
 
 ### 13. Java Desktop com Swing
 ####    ->  1. Introdução do Módulo
-                -> 
+                -> Sem Código
 ####    ->  2. Padrão Observer (Vídeo do Canal)
-                -> 
+                -> Sem Código
 ####    ->  3. Padrão Observer #01
-                -> 
+                -> Sem Código
 ####    ->  4. Padrão Observer #02
                 -> 
 ####    ->  5. Padrão Observer no Swing
