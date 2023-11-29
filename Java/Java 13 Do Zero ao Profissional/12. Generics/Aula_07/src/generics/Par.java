@@ -15,8 +15,7 @@ public class Par<C, V> {
 		super();
 		this.chave = chave;
 		this.valor = valor;
-	}
-	
+	}	
 	
 	@Override
 	public int hashCode() {
