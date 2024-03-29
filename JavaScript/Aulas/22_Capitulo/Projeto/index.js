@@ -1,19 +1,47 @@
-import colecaoChuvasDeMeteoros from './dados/dados.js'
-import printChuvas from './exibicao/impressao.js';
-import { filtrarChuvas, filtrarChuvas2 } from './funcoes/funcoes.js'
+import { menuPrincipal, menuFinalizar, menuHoje, menuData, menuXMes, menuHoje_XMes, menuDate_XMes } from './menu/menu.js';
 
 function iniciarApp() {
-  console.log("-------------------- chuva de Meteoros --------------------".toUpperCase());
-  let date = new Date();
+  let programaRunning = true;
+  do {
 
-  printChuvas(filtrarChuvas(colecaoChuvasDeMeteoros, date), 0);
+    let opcao = Number(menuPrincipal());
 
-  console.log();
-  
-  printChuvas(filtrarChuvas2(colecaoChuvasDeMeteoros, date), 1);
+    switch (opcao) {
+      case 1:
+        console.log("Opção 1");
+        programaRunning = menuHoje();
+        break;
+      case 2:
+        console.log("Opção 2");
+        programaRunning = menuData();
+        break;
+      case 3:
+        console.log("Opção 3");
+        programaRunning = menuXMes();
+        break;
+      case 4:
+        console.log("Opção 4");
+        programaRunning = menuHoje_XMes();
+        break;
+      case 5:
+        console.log("Opção 5");
+        programaRunning = menuDate_XMes();
+        break;
+      case 0:
+        console.log("Opção 0");
+        console.log("Finalizar Programa");   
+        programaRunning = false;     
+        break;
+      default:
+        console.log("Opção Invalida\n");        
+        break;
+    }
 
+    if (!programaRunning) {
+      menuFinalizar();
+    }
+
+  } while (programaRunning);
 }
 
 iniciarApp();
-
-
