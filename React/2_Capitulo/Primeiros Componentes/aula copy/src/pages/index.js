@@ -18,10 +18,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <Topo />
 
       <section className={styles.container}>
+
         <Card />
         <Card />
         <Card />
@@ -38,6 +38,7 @@ export default function Home() {
           </Link>
 
         </div>
+
       </section>
 
       <Rodape />
