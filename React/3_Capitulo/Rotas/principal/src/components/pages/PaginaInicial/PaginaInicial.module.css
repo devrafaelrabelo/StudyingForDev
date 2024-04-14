@@ -1,0 +1,21 @@
+.conteudo_opcoes{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.conteudo_opcoes a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.opcao_front_end{
+  background-color: #61dafb;
+  color: blue;
+}
+
+.opcao_back_end{
+  background-color: #43853d;
+  color: #fff 
+}

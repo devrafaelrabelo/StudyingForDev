@@ -24,6 +24,7 @@ const ItemJogos = ({ nome, plataforma }) => {
       </div>
     </div>
   );
+  
 };
 
 export default ItemJogos;

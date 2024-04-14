@@ -1,0 +1,29 @@
+.texto_white {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 30em;
+    height: 5em;
+    font-size: .5em;
+  }
+  
+  .texto_red {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #f00;
+    width: 30em;
+    height: 5em;
+    font-size: .5em;
+  }
+  
+  .texto_blue {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #00f;
+    width: 30em;
+    height: 5em;
+    font-size: .5em;
+  }
